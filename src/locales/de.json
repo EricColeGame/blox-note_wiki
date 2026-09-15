@@ -192,7 +192,9 @@
               "title": "Attend Meetings",
               "detail": "Vote on suspects and defend yourself."
             }
-          ]
+          ],
+          "order": 1,
+          "href": "/guide/bloxnote-beginner-guide"
         },
         {
           "name": "BloxNote Roles Guide",
@@ -220,7 +222,9 @@
               "title": "Kira Ally",
               "detail": "Assist Kira by creating confusion and alibis."
             }
-          ]
+          ],
+          "order": 2,
+          "href": "/characters/bloxnote-characters"
         },
         {
           "name": "BloxNote Kira Strategies",
@@ -243,7 +247,9 @@
               "title": "Meeting Defenses",
               "detail": "Redirect suspicion towards others convincingly."
             }
-          ]
+          ],
+          "order": 3,
+          "href": "/tips/bloxnote-strategy"
         },
         {
           "name": "BloxNote Detective Tips",
@@ -266,7 +272,9 @@
               "title": "Focus Progress",
               "detail": "Completing tasks forces Kira to act hastily."
             }
-          ]
+          ],
+          "order": 4,
+          "href": "/tips/bloxnote-tips"
         },
         {
           "name": "BloxNote Active Codes",
@@ -284,7 +292,9 @@
               "title": "Patch Gift",
               "detail": "Bonus points and cosmetic item."
             }
-          ]
+          ],
+          "order": 5,
+          "href": "/codes/bloxnote-codes"
         },
         {
           "name": "BloxNote Game Modes",
@@ -312,7 +322,9 @@
               "title": "Multiplayer",
               "detail": "Ranked and custom lobby matches with friends."
             }
-          ]
+          ],
+          "order": 6,
+          "href": "/modes/bloxnote-game-mode"
         },
         {
           "name": "BloxNote Maps and Tasks",
@@ -335,7 +347,9 @@
               "title": "Secret Offices",
               "detail": "Task-heavy areas with high ambush risk."
             }
-          ]
+          ],
+          "order": 7,
+          "href": "/mechanics/bloxnote-rules"
         },
         {
           "name": "BloxNote Updates & Patches",
@@ -353,7 +367,9 @@
               "title": "Next Patch",
               "detail": "New map and cosmetic customization teaser."
             }
-          ]
+          ],
+          "order": 8,
+          "href": "/guide/bloxnote-update"
         }
       ]
     },
