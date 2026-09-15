@@ -16,7 +16,9 @@
     "tips": "Tips",
     "recentUpdates": "Recent Updates",
     "allArticles": "All Articles",
-    "search": "Search guides, codes, and wiki..."
+    "search": "Search guides, codes, and wiki...",
+    "toggleTheme": "Cambiar tema",
+    "menu": "Menú"
   },
   "home": {
     "meta": {
@@ -426,7 +428,17 @@
     "categories": "Categories",
     "legal": "Legal",
     "copyright": "2026 BloxNote Wiki. Not affiliated with Roblox or the game developers.",
-    "playGame": "Jugar BloxNote"
+    "playGame": "Jugar BloxNote",
+    "description": "Centro independiente de guías para BloxNote con tutoriales, mecánicas, actualizaciones y consejos de la comunidad.",
+    "officialDiscord": "Discord Oficial",
+    "officialYoutube": "YouTube Oficial",
+    "guides": "Guías",
+    "beginnerGuide": "Guía de Principiantes",
+    "raceGuides": "Guías de Roles",
+    "bossGuides": "Estrategias Kira y L",
+    "buildGuide": "Mecánicas de Tareas",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
   },
   "codes": {
     "overviewTitle": "BloxNote Codes",
