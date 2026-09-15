@@ -202,7 +202,7 @@ export async function getContent(contentType: string, slugSegments: string[], la
         const enRealSlug = findFileBySlug(enContentDir, currentSlug) || currentSlug;
         const enMdxPath = path.join(enContentDir, `${enRealSlug}.mdx`);
         const { default: MDXContent, metadata } = await import(
-          `../../content/${routing.defaultLocale}/${contentType}/${enRealSlug}.mdx`
+          `../../content/en/${contentType}/${enRealSlug}.mdx`
         );
         return {
           slug: currentSlug,

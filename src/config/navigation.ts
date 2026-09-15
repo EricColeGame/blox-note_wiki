@@ -3,7 +3,7 @@ import { BookOpen, Code2, Gamepad2, Lightbulb, Settings, Users } from "lucide-re
 export interface NavigationItem {
   key: string;
   path: `/${string}`;
-  icon?: any;
+  icon?: unknown;
   isContentType: boolean;
 }
 
