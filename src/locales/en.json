@@ -157,7 +157,8 @@
           "value": "Free",
           "label": "To Play"
         }
-      ]
+      ],
+      "cta": "Explore All Guides"
     },
     "explore": {
       "badge": "Comprehensive Database",
