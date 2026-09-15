@@ -24,12 +24,18 @@
       "description": "Complete BloxNote guide on Roblox with active working codes, role mechanics, detective strategies, and winning tips."
     },
     "hero": {
-      "badge": "Roblox Social Deduction & Detective Wiki",
       "title": "BloxNote Wiki — Leitfäden, Codes, Rollen & Strategien",
       "description": "Meistern Sie jede Runde in BloxNote auf Roblox. Aktive Codes, Kira & L Leitfäden und Spielmechaniken.",
       "primaryCta": "Start Playing",
       "secondaryCta": "Browse Guides",
-      "tertiaryCta": "Working Codes"
+      "tertiaryCta": "Working Codes",
+      "eyebrow": "Roblox Social Deduction & Detective Wiki",
+      "stats": [
+        "Roblox Social Deduction",
+        "Detektiv- & Kira-Rollen",
+        "Aufgaben-Mechaniken",
+        "Spiel-Guides & Codes"
+      ]
     },
     "updates": {
       "title": "Latest Updates",

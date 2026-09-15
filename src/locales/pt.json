@@ -24,12 +24,18 @@
       "description": "Complete BloxNote guide on Roblox with active working codes, role mechanics, detective strategies, and winning tips."
     },
     "hero": {
-      "badge": "Roblox Social Deduction & Detective Wiki",
       "title": "BloxNote Wiki — Guias, Códigos, Papéis e Estratégias",
       "description": "Domine cada rodada em BloxNote no Roblox. Códigos ativos, guias de Kira e L e mecânicas.",
       "primaryCta": "Start Playing",
       "secondaryCta": "Browse Guides",
-      "tertiaryCta": "Working Codes"
+      "tertiaryCta": "Working Codes",
+      "eyebrow": "Roblox Social Deduction & Detective Wiki",
+      "stats": [
+        "Dedução Social Roblox",
+        "Papéis Detetive e Kira",
+        "Mecânicas de Tarefas",
+        "Guias e Códigos"
+      ]
     },
     "updates": {
       "title": "Latest Updates",
