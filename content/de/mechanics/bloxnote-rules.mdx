@@ -1,0 +1,148 @@
+export const metadata = {
+  title: "BloxNote-Regeln: Vollständiger Leitfaden zu Mechaniken, Rollen und Meetings (2026)",
+  description: "Meistern Sie die offiziellen BloxNote-Regeln. Lernen Sie Siegbedingungen der Rollen, Death-Note-Kill-Mechaniken, Aufgaben-Schwellenwerte und Voting-Mathematik.",
+  category: "mechanics",
+  date: "2026-09-15",
+}
+
+Das Überleben der ersten Minuten in Roblox' erfolgreichem Social-Deduction-Hit erfordert ein solides Verständnis der grundlegenden **BloxNote-Regeln**. Ohne die genauen Sieg-Schwellenwerte und Fraktionsmechaniken zu kennen, scheiden selbst erfahrene Social-Deduction-Spieler oft aus, bevor überhaupt das erste Meeting einberufen wird. Wer die zentralen **BloxNote-Regeln** meistert, weiß genau, wie man Timer, Aufgabenleiste und Abstimmungen zu seinem Vorteil nutzt – egal, ob man mit dem Death Note spawnt oder in die Rolle von L schlüpft.
+
+Das Spiel versammelt bis zu 10 Spieler auf einem spannungsgeladenen, asymmetrischen Schlachtfeld, das stark an die klassische übernatürliche Thriller-Prämisse des [Death-Note-Franchise auf Wikipedia](https://en.wikipedia.org/wiki/Death_Note) angelehnt ist. Während Gelegenheitsspieler Runden oft wie ein einfaches Versteckspiel behandeln, werden Partien auf hohem Niveau ausschließlich durch die zugrunde liegenden Regelinteraktionen und numerischen Schwellenwerte entschieden.
+
+---
+
+## Rollenziele und Siegbedingungen der Fraktionen
+
+Jedes Match teilt die Lobby in zwei verschiedene Fraktionen auf: die Killer und die Stadt (Town). Das Verständnis der grundlegenden **BloxNote-Regeln** bezüglich der Fraktionsziele ist entscheidend, da eine unüberlegte Stimme der Gegenseite sofort den Sieg schenken kann.
+
+Die Rollenverteilung ist asymmetrisch, was bedeutet, dass jeder Teilnehmer während des aktiven Spielgeschehens einzigartige Aufgaben und Einschränkungen hat.
+
+| Rolle | Fraktionslager | Primäre Siegbedingung | Zentrale mechanische Fähigkeit / Werkzeug |
+| :--- | :--- | :--- | :--- |
+| **Kira** | Killer | Town-Mitglieder eliminieren, bis Killer Gleichstand oder Mehrheit erreichen | Hält das physische Death Note; trägt Namen ein |
+| **Kira Follower** | Killer | Kira beschützen und Killer-Gleichstand sichern | Hält Ersatzseiten; fungiert als Kurier und Köder |
+| **Investigator** | Town | Gemeinsame Aufgabenleiste füllen oder alle Killer rauswählen | Treibt Aufgabenfortschritt voran; kann Leichen melden und Meetings einberufen |
+| **L** | Town | Kira durch Ermittlungen identifizieren und eliminieren | Verfügt über server-autoritative ID-Check-Aufklärungstools |
+
+### Siegbedingungen für Town
+Town-Spieler (Investigators und L) sichern sich unter drei spezifischen Bedingungen einen sofortigen Sieg:
+1. Jeder Killer (sowohl Kira als auch der Follower) wird durch Notfallabstimmungen erfolgreich hinausgewählt.
+2. Kira wird während der Runde durch spezifische Mechaniken direkt neutralisiert.
+3. Die gemeinsame Aufgabenleiste erreicht 100 % Abschluss, bevor die Killer einen personellen Gleichstand erzielen.
+
+### Siegbedingungen für Killer
+Das Killer-Lager gewinnt sofort, wenn die Gesamtzahl der lebenden Killer der Anzahl der lebenden Town-Mitglieder entspricht oder diese übersteigt. Läuft der Runden-Timer ab, bevor Town alle Aufgaben erledigt oder die Täter entlarvt hat, geht der Sieg ebenfalls standardmäßig an die Killer.
+
+---
+
+## Death-Note-Mechaniken, Kill-Sequenzen und Aufgabenfortschrittsraten
+
+Das Verständnis der Eliminationsmechanik gemäß den **BloxNote-Regeln** unterscheidet Anfänger von zielsicheren Attentätern. Kira kann Zielpersonen nicht einfach nach Belieben über die gesamte Karte hinweg ausschalten; jeder Kill unterliegt strengen Sichtlinien- und Distanzbeschränkungen.
+
+```
+Kira schreibt Namen ins Notizbuch ➔ Bildschirm des Ziels blinkt ➔ 3–4 Sek. Todesanimation ➔ HUD-Kill-Counter aktualisiert sich
+```
+
+### Die Eliminationssequenz
+Aktiviert Kira das Death Note, wird auf dem Server eine dreiphasige Sequenz ausgelöst:
+- **Distanzprüfung (Proximity Check)**: Kira muss sich beim Schreiben in unmittelbarer physischer Nähe zum ausgewählten Ziel befinden. Es gibt keine Kills auf Distanz.
+- **Opfer-Warnung**: Der Bildschirm des Ziels blinkt kurz auf, was einen Sekundenbruchteil zur Erkenntnis lässt, bevor die Animationssperre greift.
+- **Vollstreckung des Todes**: Etwa 3 bis 4 Sekunden nach dem Eintragen des Namens bricht der Charakter des Opfers zusammen, und die Eliminierung wird global im Runden-HUD registriert.
+
+### Regeln zur Notizbuch-Übergabe
+Ein weit verbreiteter Irrglaube unter Anfängern betrifft die Fähigkeiten des Kira Followers. Community-Berichte und Leitfäden für den kompetitiven Bereich bestätigen, dass der Follower unter regulären Bedingungen auf öffentlichen Servern keine Namen schreiben kann. Der Follower agiert ausschließlich als Kurier und Ablenkung. Lässt Kira das Notizbuch fallen oder wird hinausgewählt, bestimmen serverseitige Übergabeprotokolle, wann und wie das Death Note transferiert werden kann, um einen neuen Kira zu aktivieren.
+
+### Aufgabenwerte und Fortschritts-Benchmarks
+Investigators halten dem Kill-Timer entgegen, indem sie in der gesamten Einrichtung verteilte Aufgaben erledigen. Diese Aufgaben fließen in eine einzige, synchronisierte Fortschrittsleiste ein, die für alle Town-Spieler sichtbar ist.
+
+| Aufgabenkategorie | Beigetragener Fortschritt | Durchschnittliche Dauer | Optimaler strategischer Einsatz |
+| :--- | :--- | :--- | :--- |
+| **Kurze Aufgabe (Short Task)** | 5 % – 8 % | 8 – 12 Sekunden | Schnelle Rotationen; ideal für solo agierende Investigators |
+| **Lange Aufgabe (Long Task)** | 12 % – 18 % | 20 – 30 Sekunden | Hohe Belohnung; am besten mit vertrauenswürdiger Deckung ausführen |
+| **Gruppenaufgabe (Group Task)** | 10 % pro Teilnehmer | 15 – 20 Sekunden | Schneller Team-Boost; beschleunigt Aufgaben-Rushes im Late-Game |
+
+Der Aufgabenfortschritt wird zu Beginn jedes Matches auf 0 % zurückgesetzt und nicht zwischen Runden übertragen.
+
+---
+
+## Meeting-Protokolle, Melde-Buttons und Abstimmungs-Mathematik
+
+Notfall-Meetings und Leichenmeldungen pausieren den aktiven Runden-Timer und deaktivieren Kiras Fähigkeit, Namen zu schreiben, vollständig. Die Kenntnis der mathematischen Abstimmungsschwellen der **BloxNote-Regeln** verhindert verschwendete Runden und versehentliche Selbstsabotage bei entscheidenden Beratungen.
+
+### Ablauf eines Meetings Schritt für Schritt
+
+1. **Auslösen des Aufrufs**: Ein Investigator oder L drückt seinen einmalig nutzbaren Notfall-Button oder meldet eine gefundene Leiche.
+2. **Eröffnung der Runde**: Der Spieler, der die Leiche gemeldet hat, erhält Redepriorität, um den ersten Zeugenbericht abzugeben.
+3. **Offene Beratung**: Die Lobby diskutiert Beweise, während der Haupt-Kill-Timer eingefroren bleibt.
+4. **Stimmabgabe**: Die Spieler wählen einen Verdächtigen oder stimmen für „Überspringen“ (Skip).
+5. **Auflösung**: Wird die erforderliche Schwelle erreicht, scheidet der Verdächtige aus. Andernfalls wird die Runde ohne Rauswurf fortgesetzt.
+
+| Verbleibende lebende Spieler | Erforderliche Stimmen für Rauswurf | Ergebnis bei Stimmengleichstand | Strategische Auswirkung |
+| :--- | :--- | :--- | :--- |
+| **10** | 6 | Kein Rauswurf (Status Quo) | Town benötigt starken Konsens |
+| **8** | 5 | Kein Rauswurf (Status Quo) | Sicherer Puffer gegen Fehlklicks |
+| **6** | 4 | Kein Rauswurf (Status Quo) | Kritischer Wendepunkt im Mid-Game |
+| **5** | 3 | Kein Rauswurf (Status Quo) | Hocheffiziente Schwelle für Town |
+| **4** | 3 | **Rauswurf wird ausgelöst** | **Tödliches Endgame**: Einfache Mehrheit wirft raus |
+| **3** | 2 | **Rauswurf wird ausgelöst** | **Matchball**: Eine einzelne Zünglein-an-der-Waage-Stimme entscheidet |
+
+Nach den Standard-**BloxNote-Regeln** führen Stimmengleichstände bei mehr als vier lebenden Spielern dazu, dass niemand eliminiert wird. Sobald die Lobby jedoch auf 4 oder 3 Spieler schrumpft, ändert sich die Mathematik drastisch. In dieser Phase reicht eine einfache Mehrheit sofort für einen Rauswurf aus, was Meetings im Late-Game extrem gefährlich macht.
+
+---
+
+## Zonen der Karte, Gefahrenstufen und Spawn-Dynamik
+
+Die Standardkarte kann im vollen Sprint in etwa 25 bis 30 Sekunden von Ecke zu Ecke durchquert werden. Da die Laufwege kurz sind, liegt der Fokus beim Kartenverständnis eher auf Sichtlinien und Spielerströmen als auf verwinkelten Grundrissen.
+
+| Kartensektor | Eliminationsrisiko | Meeting-Häufigkeit | Primärer taktischer Zweck |
+| :--- | :--- | :--- | :--- |
+| **Main Hall** | **Sehr hoch** | **Sehr hoch** | Zentraler Durchgangsknotenpunkt; gefährlich für einsame Investigators |
+| **Library** | **Hoch** | Mittel | Engpass-Layout; häufiger Hinterhaltskorridor |
+| **Basement** | **Hoch** | Niedrig | Schlecht einsehbarer Bereich; ideale Zone für Notizbuch-Übergaben |
+| **Rooftop** | Mittel | Niedrig | Isolierter Finisher-Ort für Killer-Aktionen im Late-Game |
+| **Kitchen** | Niedrig | Niedrig | Relativ sicherer Sektor für frühe Aufgaben |
+
+### Die ersten 30 Sekunden
+Zu Rundenbeginn spawnen die Spieler an vier festgelegten Außenbereichen der Karte. Erfahrungswerte zeigen: Wer in den ersten 30 Sekunden direkt durch die Main Hall stürmt, macht sich für schnelle Kills anfällig, noch bevor Aufgaben protokolliert werden können. Defensivere Routen über die Kitchen oder die äußeren Korridore ermöglichen es Town-Mitgliedern, sich sicher zu gruppieren, bevor sie stark frequentierte Engpässe betreten.
+
+---
+
+## Fortgeschrittene Strategie: Taktieren im Regelwerk
+
+Um gegen erfahrene Spieler zu gewinnen, müssen die offiziellen **BloxNote-Regeln** genutzt werden, um die Gegenseite vor strategische Dilemmata zu stellen.
+
+```
+       [ L-Nähe-Scan ]
+              │
+      ┌───────┴───────┐
+      ▼               ▼
+[ Ziel: Kira ]   [ Ziel: Follower (Köder) ]
+      │               │
+Sofortiger Call  Intel-Tool verbraucht / Kira sicher
+```
+
+### Taktiken für das Killer-Team
+- **Das Zwei-Räume-Isolationsprinzip**: Da Kiras Schreibanimation den Charakter für einen Moment unbeweglich und verwundbar macht, sollte man sich nie länger als zwei Sekunden mit einem potenziellen Opfer in einem Raum aufhalten. Führen Sie den Kill schnell aus und rotieren Sie sofort in eine angrenzende Zone.
+- **Die Aufgaben-Finte**: Kira-Spieler können sich in der ersten Minute an Aufgabenstationen stellen, um Fortschritt vorzutäuschen. In unkoordinierten Lobbys schafft dies ein verlässliches Alibi für das erste Meeting.
+- **Köder-Laufwege des Followers**: Der Kira Follower sollte gezielt L beschatten oder in Meetings die Aufmerksamkeit auf sich lenken. Ein Rauswurf des Followers schützt den aktiven Death-Note-Besitzer und erhält Kiras Momentum aufrecht.
+
+### Taktiken für Town und L
+- **Aufgaben-Priorisierung**: Town-Mitglieder sollten sich in frühen Runden auf das Erledigen von Aufgaben konzentrieren, anstatt spekulative Notfall-Meetings einzuberufen. Ein Meeting ohne handfeste Beweise verschwendet die Einweg-Buttons von Town und stoppt den Fortschritt der Aufgabenleiste.
+- **L-Scan-Kombinationen**: L kann nacheinander mehrere Verdächtige überprüfen, um serverseitig bestätigte Gesinnungsdaten zu sammeln. Sobald L die Identität eines Killers bestätigt hat, friert ein sofortiges Meeting das Geschehen ein und erzwingt eine Abstimmung der Town.
+- **Keller-Überwachung**: Da Notizbuch-Übergaben und geheime Absprachen zwischen Killern oft in wenig frequentierten Bereichen wie dem Basement stattfinden, laufen aufmerksame Investigators regelmäßig an diesen Räumen vorbei, um verdächtige Übergaben zu vereiteln.
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+### Welche BloxNote-Regeln sind für Anfänger am wichtigsten?
+Neue Spieler sollten sich vorrangig auf die Fraktionsteilung (Killer vs. Town), die Siegbedingung über die Aufgabenleiste, die Nahkampf-Pflicht des Death Note und die veränderten Abstimmungsschwellen bei vier oder weniger Spielern konzentrieren. Wer diese vier Grundbausteine beherrscht, vermeidet frühe Fehler und unnötige Niederlagen.
+
+### Kann der Kira Follower Namen in das Death Note schreiben?
+Nein. Gemäß den offiziellen **BloxNote-Regeln** hat nur der Spieler in der aktiven Kira-Rolle die Fähigkeit, Namen einzutragen und Eliminierungen auszulösen. Der Follower dient als Teamkollege, der Ersatzseiten tragen, Gegenstände weitergeben und in Abstimmungsrunden als sozialer Köder fungieren kann.
+
+### Was passiert bei einem Stimmengleichstand im Meeting?
+Sind noch fünf oder mehr Spieler am Leben, führt ein Gleichstand dazu, dass niemand hinausgeworfen wird; das Meeting endet und das Spiel läuft weiter. Sinkt die Zahl der Überlebenden jedoch auf vier oder weniger, greifen deutlich aggressivere Abstimmungsschwellen, sodass bereits einfache Mehrheiten zu entscheidenden Rauswürfen im Late-Game führen.
+
+### Wie viele Spieler werden für eine BloxNote-Lobby benötigt?
+Reguläre öffentliche Partien erfordern 8 bis 10 Spieler zum Starten, wobei 10 die maximale Lobbygröße darstellt. Private Custom-Lobbys können bereits ab 6 Spielern gespielt werden, wobei Aufgabenschwellen und Eliminationsziele dynamisch an kleinere Spielerzahlen angepasst werden.

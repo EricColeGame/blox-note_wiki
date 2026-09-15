@@ -1,0 +1,140 @@
+export const metadata = {
+  title: "BloxNote Dev Insights: Guia Completo de Desenvolvimento, Atualizações e Mecânicas de Jogo",
+  description: "Explore a jornada de desenvolvimento de BloxNote, mecânicas de jogo, cronogramas de atualização e estratégias táticas neste guia completo do jogo de Death Note no Roblox.",
+  category: "guide",
+  date: "2026-09-15",
+}
+
+O gênero de dedução social inspirado em animes no Roblox atingiu novos patamares com o surgimento de BloxNote, uma experiência de suspense psicológico de alto risco inspirada em *Death Note*. Após os anúncios e marcos de lançamento da equipe de **desenvolvimento de BloxNote** (BloxNote dev), milhares de jogadores mergulharam na disputa de gato e rato entre investigadores e portadores no estilo Kira. Se você deseja dominar o jogo e ficar à frente dos ciclos de atualizações mais recentes, entender a filosofia de design do grupo de **desenvolvimento de BloxNote** é fundamental para prever mudanças de balanceamento, recursos futuros e estratégias do meta.
+
+Neste guia detalhado, explicamos tudo o que você precisa saber sobre o cronograma de desenvolvimento, mecânicas centrais, funções táticas e como o feedback da comunidade impulsiona os futuros lançamentos de conteúdo.
+
+---
+
+## A Visão por Trás de BloxNote: Arquitetura e Design Central
+
+A equipe de desenvolvimento se propôs a recriar a atmosfera tensa dos animes de investigação sobrenatural dentro da estrutura flexível da [plataforma Roblox](https://www.roblox.com). Em vez de construir uma arena de batalha genérica, os criadores priorizaram a guerra psicológica, furtividade, coleta de evidências e dedução.
+
+A experiência dos jogadores e os relatos da comunidade destacam que o jogo gira em torno de loops multijogador assimétricos. Um lado deve descobrir identidades por meio da análise de comportamento e rastreamento de pistas, enquanto o outro elimina alvos sistematicamente sem ser pego pelas câmeras de vigilância ou deixar rastros forenses.
+
+### Pilares Centrais de Design
+
+| Pilar de Design | Implementação no Jogo | Experiência Pretendida para o Jogador |
+| :--- | :--- | :--- |
+| **Tensão Psicológica** | Funções ocultas e mecânicas de escrita anônima | Paranoia constante e blefes estratégicos |
+| **Assimetria de Informação** | Registros embaralhados, notas privadas e visão limitada | Recompensar a lógica dedutiva em vez do combate puro |
+| **Temporizadores de Rodada Dinâmicos** | Fases de investigação variáveis com base nas mortes | Urgência crescente à medida que o tempo se esgota |
+| **Perícia Forense** | Escaneamento de impressões digitais, imagens de CFTV e testemunhas oculares | Incentivar o trabalho investigativo metódico |
+
+---
+
+## Detalhamento de Funções e Arquétipos de Jogabilidade
+
+Para ter sucesso em BloxNote, os jogadores precisam dominar ambos os lados da divisão investigativa. A equipe de desenvolvimento ajustou meticulosamente o equilíbrio entre os portadores do caderno sobrenatural e a força-tarefa de detetives.
+
+### A Facção Sobrenatural (Os Portadores do Caderno)
+
+O objetivo principal do portador do caderno é eliminar alvos de alto valor enquanto desvia as suspeitas para inocentes.
+
+- **Obtenção de Nomes:** Os portadores devem obter tanto o nome de exibição exato quanto a identificação facial do avatar de seu alvo.
+- **Personalização da Causa da Morte:** Portadores avançados podem especificar atrasos de tempo e causas de morte para arquitetar álibis elaborados.
+- **Habilidade dos Olhos de Shinigami:** Uma troca opcional de alto risco na qual metade da vida ou do tempo da rodada do jogador é sacrificada em troca da identificação imediata dos nomes acima dos avatares dos personagens.
+
+### A Força-Tarefa de Detetives (Investigadores e Cidadãos)
+
+A facção investigativa depende de comunicação, ferramentas forenses e observação comportamental para localizar o jogador infiltrado antes que o servidor seja dizimado.
+
+- **Coleta Forense:** Verificar corpos caídos em busca de pistas de proximidade e registros de tempo.
+- **Monitoramento de Segurança:** Acessar transmissões locais de CFTV para estabelecer álibis durante os incidentes relatados.
+- **Fase de Acusação Vocal:** Iniciar votações de tribunal de emergência com base nas evidências físicas coletadas.
+
+| Classe de Função | Principais Responsabilidades | Ferramentas / Habilidades Primárias | Nível de Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Detetive Líder** | Coordenar a equipe, revisar vigilância, liderar votações | Rádio Policial, Kit de Evidências, Acesso a Mandados | Avançado |
+| **Analista Forense** | Análise de autópsia, rastrear o tempo das eliminações | Scanner de Ampliação, Kit de Sangue/Vestígios | Intermediário |
+| **Civil / Testemunha** | Concluir tarefas diárias, relatar atividades suspeitas | Botão de Pânico, Lanterna, Registro de Tarefas | Iniciante |
+| **O Portador do Caderno** | Eliminação secreta, manipular dinâmicas sociais | Caderno da Morte, Amuleto de Disfarce, Pacto dos Olhos | Especialista |
+| **Cúmplice** | Interceptar conversas de rádio, enganar investigadores | Marcador de Evidência Falsa, Dispositivo Bloqueador | Intermediário |
+
+---
+
+## Mecânicas de Sistema: Regras do Caderno e Contraestratégias
+
+O fluxo de desenvolvimento da equipe de **BloxNote dev** prioriza interações mecânicas rigorosas para garantir que nenhuma função se torne imbatível. Compreender o conjunto de regras internas é vital para sobreviver a partidas difíceis.
+
+### Mecânicas e Limitações do Caderno
+
+1. **Requisito de Linha de Visão:** Você não pode escrever o nome de um jogador cujo rosto do avatar não esteve diretamente no seu campo de visão durante a fase atual.
+2. **Precisão na Ortografia:** Escrever incorretamente o nome de usuário de um alvo gera uma penalidade de tempo de recarga e alerta investigadores próximos com um som suave de batimento cardíaco.
+3. **Agendamento de Atraso:** Definir uma morte com atraso permite que você se misture a multidões quando a vítima cair, garantindo um álibi sólido.
+
+| Recurso Mecânico | Parâmetro Padrão | Uso Tático | Estratégia de Contra-ataque |
+| :--- | :--- | :--- | :--- |
+| **Tempo Base de Escrita** | 3,5 Segundos | Requer permanecer imóvel em áreas isoladas | Emboscar salas silenciosas e verificar cantos isolados |
+| **Temporizador de Ataque Cardíaco** | 40 Segundos (Padrão) | Método de eliminação padrão | Observar mudanças de movimento do jogador antes do colapso |
+| **Visão de Shinigami** | Exibição Instantânea de Nomes | Obtenção rápida de alvos | Alvos de alta visibilidade devem permanecer em grupos grandes |
+| **Queda do Caderno ao Morrer** | Surgimento com Física Imediata | Passar o poder para um Cúmplice | Proteger suspeitos caídos para garantir evidências |
+
+---
+
+## Cronograma de Desenvolvimento e Padrões de Atualização
+
+Acompanhar as notas de atualização e os teasers sociais permite que jogadores competitivos se adaptem rapidamente às mudanças no meta. O ciclo de vida do desenvolvimento normalmente passa por fases de teste distintas, desde testes alfa fechados até atualizações públicas amplas.
+
+```
+Ideação de Desenvolvimento ──> Ramo Experimental ──> Testes Fechados de QA ──> Teasers da Comunidade ──> Lançamento Público e Hotfix
+```
+
+### Cadência Típica de Lançamentos
+
+- **Hotfixes Semanais:** Balanceamento numérico, correção de bugs e ajustes de sincronização audiovisual.
+- **Lançamentos Mensais de Conteúdo:** Novos mapas de dedução, skins cosméticas para o caderno, animações personalizadas de avatar e dispositivos forenses.
+- **Grandes Expansões:** Reformulações completas de funções, mecânicas de companheiros Shinigami e modos dedicados de pareamento competitivo.
+
+| Fase de Atualização | Área de Foco | Impacto do Feedback da Comunidade |
+| :--- | :--- | :--- |
+| **Versões Alfa** | Netcode principal e registro de acertos em interações | Alto (Mecânicas centrais ajustadas diretamente via relatórios de bugs) |
+| **Lançamentos Beta** | Balanceamento do layout dos mapas, linhas de cobertura de CFTV | Médio (Ajustes feitos em linhas de visão e locais de surgimento) |
+| **Patches de Temporada** | Eventos temáticos, ranqueadas, atualizações antitrapassa | Alto (Balanceamento das taxas de vitória das funções entre níveis de habilidade) |
+
+---
+
+## Estratégias Práticas para Dominar o BloxNote
+
+Seja jogando como investigador ou como o esquivo portador, os reflexos comuns de jogos são secundários em relação à percepção de jogo, timing e posicionamento psicológico.
+
+### Melhores Estratégias para Portadores do Caderno
+
+- **Nunca Olhe Fixamente:** Olhar diretamente para um alvo por um período prolongado é a maneira mais rápida de chamar a atenção de detetives atentos. Use ângulos de câmera em terceira pessoa ao redor de paredes para capturar perfis faciais.
+- **Alterne os Intervalos de Eliminação:** Evite eliminar jogadores assim que o tempo de recarga terminar. Intervalos irregulares quebram padrões preditivos usados por analistas forenses.
+- **Aproveite a Confusão em Grupo:** Execute suas ações quando grandes grupos se reunirem perto de terminais de tarefas ou durante apagões de energia.
+
+### Melhores Estratégias para Investigadores
+
+- **Estabeleça Sistemas de Duplas:** Movimente-se em pares de jogadores confiáveis. Se um jogador morrer, a última pessoa vista com ele fica imediatamente sob suspeita.
+- **Cruze os Registros de Horário:** Quando uma morte for relatada, verifique imediatamente quais jogadores estavam fora do alcance das câmeras durante aquela janela exata de 40 segundos.
+- **Provoque o Uso dos Olhos de Shinigami:** Faça com que alvos prioritários alterem itens cosméticos ou usem acessórios que ocultem parcialmente os contornos faciais, forçando o portador a se arriscar em interações de curto alcance.
+
+---
+
+## Como o Feedback da Comunidade Molda o Conteúdo Futuro
+
+O engajamento da comunidade continua sendo uma força motriz por trás das atualizações de balanceamento contínuas. As opiniões compartilhadas nas redes sociais e nos fóruns de desenvolvedores influenciam diretamente quais ferramentas recebem melhorias (buffs) ou enfraquecimentos (nerfs) nos lançamentos seguintes.
+
+Sempre que os jogadores descobrem brechas não intencionais — como pontos cegos fora do alcance das câmeras ou falhas de escrita durante animações de corrida —, a equipe de **desenvolvimento de BloxNote** lança correções rápidas para manter a integridade competitiva. Os relatos de experiência dos jogadores também servem de base para o design de mapas novos e mais complexos, com layouts de vários andares, redes de ventilação e persianas de segurança interativas.
+
+---
+
+## Perguntas Frequentes (FAQ)
+
+### Qual é o papel principal da equipe de desenvolvimento de BloxNote no balanceamento do jogo?
+A equipe de **BloxNote dev** monitora continuamente as estatísticas de taxa de vitória entre investigadores e portadores do caderno, ajustando temporizadores de recarga, precisão forense e pontos cegos de câmeras para garantir partidas justas e competitivas.
+
+### Com que frequência BloxNote recebe atualizações de conteúdo?
+As atualizações geralmente seguem um cronograma quinzenal a mensal para grandes recursos, enquanto hotfixes e ajustes de balanceamento são implementados conforme necessário, com base em relatórios da comunidade e envio de bugs.
+
+### É possível jogar BloxNote com amigos em servidores privados?
+Sim, os servidores privados permitem configurações de jogo personalizadas, possibilitando que grupos de amigos criem salas customizadas com temporizadores de escrita ajustados, contagem de tarefas e distribuição personalizada de funções.
+
+### O que devo fazer se encontrar um bug no BloxNote?
+Documente o problema com evidências em vídeo ou captura de tela e envie pelos canais oficiais de bugs da comunidade para que a equipe de desenvolvimento possa reproduzir e resolver o problema no próximo hotfix programado.

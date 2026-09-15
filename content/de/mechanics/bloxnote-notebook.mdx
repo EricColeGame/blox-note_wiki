@@ -1,0 +1,151 @@
+export const metadata = {
+  title: "BloxNote Notizbuch-Guide: Kernmechaniken, Regeln und Strategie-Analyse",
+  description: "Meistern Sie die BloxNote-Notizbuchmechaniken in Roblox. Lernen Sie Eliminierungsregeln, Todesursachen-Timing, Abklingzeiten und Top-Überlebensstrategien.",
+  category: "mechanics",
+  date: "2026-09-15",
+}
+
+Das Beherrschen übernatürlicher Kräfte in Social-Deduction-Spielen erfordert das Verständnis jeder noch so kleinen mechanischen Regel, bevor man den Server betritt. Das **BloxNote-Notizbuch** dient als ultimatives Eliminierungswerkzeug, direkt inspiriert von legendären Psychothrillern und angepasst für rasante Multiplayer-Lobbys. Zu lernen, wie man das **BloxNote-Notizbuch** richtig führt, unterscheidet unvorsichtige Neulinge von dominanten Masterminds, die in der Lage sind, ganze Runden aus dem Schatten heraus zu kontrollieren.
+
+Egal, ob Sie die Aufgabe haben, Ziele zu identifizieren oder gegen einen unsichtbaren Schreiber zu überleben: Das Verständnis der internen Mechaniken dieses Gegenstands ist für den Wettbewerbserfolg unerlässlich. Im Folgenden finden Sie die vollständige Übersicht darüber, wie das Item funktioniert, seine genauen Regeln, betrieblichen Einschränkungen und fortgeschrittene Strategien zur Beherrschung Ihrer Lobbys.
+
+---
+
+## Kernmechaniken und Regeln des BloxNote-Notizbuchs
+
+Der zentrale Gameplay-Loop von BloxNote dreht sich um die Beschaffungs- und Ausführungsphasen des Gegenstands. Wenn ein Spieler das Item erhält, bekommt er eine interaktive Benutzeroberfläche, die einem ledergebundenen Tagebuch ähnelt, in das Namen, Bedingungen und Timings eingetragen werden können.
+
+Im Gegensatz zu einfachen Click-to-Attack-Waffen, die man in Standard-Actiontiteln auf der [offiziellen Roblox-Plattform](https://www.roblox.com) findet, erfordert dieser Gegenstand präzise Eingaben. Das falsche Schreiben des Benutzernamens eines Ziels oder das Nichterfüllen von Vorbedingungen macht den Eintrag ungültig, verschwendet wertvolle Zeit und enttarnt Ihre Rolle.
+
+### Die Grundregeln des Eintragens
+
+Um eine Eliminierung erfolgreich auszulösen, muss der Benutzer mehrere mechanische Bedingungen innerhalb der Engine erfüllen:
+
+| Anforderungsparameter | Engine-Bedingung | Fehlschlagsfolge |
+| :--- | :--- | :--- |
+| **Zielname** | Exakter Anzeigename oder eindeutiger Handle | Null-Aktion; Timer wird zurückgesetzt |
+| **Visuelle Sichtlinie** | Direkter Blickkontakt oder kürzliche visuelle Bestätigung | Eintragung wird nicht registriert |
+| **Gesichtsgedächtnis-Puffer** | Avatar des Ziels muss innerhalb von 45 s gerendert worden sein | Rote-Tinte-Warnung; kein Auslöser |
+| **Todesursache** | Festgelegt innerhalb eines 6,5-Sekunden-Unterfensters | Fällt standardmäßig auf Herzversagen zurück |
+| **Umgebungskontext** | Plausible physische Gegebenheiten auf der Karte | Ziel fällt standardmäßig auf Standard-Fehlschlag zurück |
+
+Wenn ein Spieler versucht, ein Ziel zu eliminieren, dessen Gesicht nicht von der Sichtfeld-Kamera seines Avatars registriert wurde, weist das Notizbuch den Eintrag ab. Diese visuelle Puffermechanik verhindert Spawn-Room-Sweeps und zwingt den Schreiber dazu, aktiv umherzustreifen.
+
+---
+
+## Technische Daten: Timing, Abklingzeiten und Strafen
+
+Die Bedienung des Gegenstands wird von starren Zeitfenstern bestimmt. Präzision wird belohnt, während übereilte Fehler bestrafende Debuffs auslösen, die den Schreiber anfällig für Gegenermittlungen durch Detektive und unschuldige Zivilisten machen.
+
+### Betriebs-Timer und Aktionsfenster
+
+```
+[Ziel eingetragen] ──> (6.5s Ursachenfenster) ──> [40s Hinrichtungsverzögerung] ──> [Eliminierung]
+                              │
+                              └── (Kein Eintrag) ──> [Standard: Herzversagen]
+```
+
+Die folgende Tabelle beschreibt die wichtigsten technischen Timings, die das Tempo der Runde vorgeben:
+
+| Phase / Aktion | Zeitdauer | Beschreibung |
+| :--- | :--- | :--- |
+| **Eintragsfenster** | 8,0 Sekunden | Erlaubte Zeit zum Eintippen des Zielnamens ohne Abbruch |
+| **Spezifikationsfenster** | 6,5 Sekunden | Kulanzzeit zur Eingabe einer individuellen Todesursache |
+| **Standard-Todesverzögerung** | 40,0 Sekunden | Basis-Timer, bevor das Ziel ein Herzversagen erleidet |
+| **Standard-Abklingzeit** | 60,0 Sekunden | Verzögerung, bevor ein neuer Name eingetragen werden kann |
+| **Tippfehler-Strafe** | 15,0 Sekunden | Eingabesperre, die verhängt wird, wenn ein ungültiger Name übermittelt wird |
+| **Seitenlimit** | 5–8 Einträge | Gesamtkapazität pro Runde je nach Servereinstellungen |
+
+Community-Berichte und Spielerfahrungen unterstreichen, dass die Beherrschung der 40-sekündigen Hinrichtungsverzögerung die wichtigste Fähigkeit ist. Da Eliminierungen nicht augenblicklich erfolgen, können Ziele weiterhin kommunizieren, Stimmen abgeben oder Notfallaufgaben auslösen, bevor sie den Auswirkungen des Gegenstands erliegen.
+
+---
+
+## Todesursachen-Optionen und Karteninteraktionen
+
+Bei der Verwendung des **BloxNote-Notizbuchs** können Spieler einzigartige Eliminierungsbedingungen festlegen, um den Tatort zu manipulieren. Die Auswahl benutzerdefinierter Todesursachen kann Ermittler in die Irre führen, Gruppenpanik auslösen oder Ziele mit hoher Priorität isolieren.
+
+### Todesarten und Umgebungsanforderungen
+
+| Todesursache | Erforderliche Bedingungen | Hinterlassene Tatortbeweise | Ermittlungsschwierigkeit |
+| :--- | :--- | :--- | :--- |
+| **Herzversagen** | Keine (Standardbedingung) | Sauberer Avatar-Zusammenbruch, kein Blut | Hoch (Hinterlässt null Umgebungshinweise) |
+| **Verkehr / Fahrzeug** | Karte muss aktive Straßen/Gefahren enthalten | Avatar wird in Richtung der Verkehrswege bewegt | Niedrig (Offensichtliche Manipulation) |
+| **Sturz / Aufprall** | Ziel muss innerhalb von 30 Studs zu Absätzen sein | Avatar stürzt von der nächstgelegenen Erhöhung | Mittel (Kann wie ein versehentliches Bewegen aussehen) |
+| **Raserei / Feindseligkeit** | Ziel muss in der Nähe eines anderen Spielers sein | Ziel stürzt sich vor dem Sturz auf den nächsten Avatar | Extrem (Stellt Unbeteiligte als Täter dar) |
+| **Strukturelle Falle** | Ziel muss sich im Innenbereich befinden | Näherungsgefahr aktiviert sich (Türen/Lichter) | Mittel (Signalisiert einen inszenierten Anschlag) |
+
+Die Wahl der richtigen Todesursache ermöglicht es dem Schreiber, überzeugende Alibis aufzubauen. Wenn Sie beispielsweise eine Sturz-Bedingung auslösen, während sich der Schreiber sichtbar auf Bodenhöhe befindet, weckt dies Zweifel bei Ermittlern, die Sichtlinienwinkel analysieren.
+
+---
+
+## Rollen-Matchups und Strategische Bedrohungsmatrix
+
+Das Überleben in BloxNote hängt davon ab, zu wissen, wie Ihre Fähigkeiten im Vergleich zu gegnerischen Rollen abschneiden. Jede Ermittlerrolle verfügt über einzigartige Erkennungswerkzeuge, die darauf ausgelegt sind, den Besitzer des Notizbuchs zu identifizieren und zu neutralisieren.
+
+### Matchup-Vergleichstabelle
+
+| Gegnerische Rolle | Bedrohungsstufe | Primäre Konterfähigkeit | Schreiber-Strategie |
+| :--- | :--- | :--- | :--- |
+| **Leitender Detektiv** | Extrem | Lupe-Inspektion / Tintenrückstandsprüfung | Mindestens 15+ Studs Abstand halten; Alibifenster nutzen |
+| **Überwachungstechniker** | Hoch | Kameraprotokollanalyse & visuelle Verfolgung | Statische Ecken während der 8-sekündigen Schreibphase meiden |
+| **Forensiker** | Mittel | Leichenuntersuchung auf Timing der Todesursache | Todesbedingungen abwechseln, um Muster zu verschleiern |
+| **Zivilist / Bürger** | Niedrig | Direkte Augenzeugenberichte | Isolierte Nachzügler abseits von Gruppenclustern eliminieren |
+| **Sicherheitsbeamter** | Hoch | Direkte physische Betäubung und Inventardurchsuchung | Item uneingerüstet lassen, bis sich das Schreibfenster öffnet |
+
+### Wichtige taktische Prioritäten
+
+- **Halten Sie den Gegenstand niemals dauerhaft in der Hand:** Das Ausrüsten des Journals löst subtile Animationssignale aus (wie eine gesenkte Handhaltung), nach denen erfahrene Detektive Ausschau halten.
+- **Wechseln Sie die Ziele strategisch ab:** Das sofortige Eliminieren der lautstärksten Ermittler lenkt den Verdacht sofort auf ruhige Spieler. Passen Sie sich an, indem Sie sich an öffentlichen Diskussionen beteiligen.
+- **Nutzen Sie den 40-Sekunden-Puffer aus:** Tragen Sie einen Namen ein, begeben Sie sich sofort in einen überfüllten öffentlichen Bereich und unterhalten Sie sich mit anderen Spielern. Wenn die Eliminierung ausgelöst wird, bietet Ihre physische Anwesenheit in der Menge ein wasserdichtes Alibi.
+
+---
+
+## Fortgeschrittenes Playbook: Schritt-für-Schritt-Ausführungsszenarien
+
+Das Ausführen makelloser Runden mit dem **BloxNote-Notizbuch** erfordert strikte Disziplin. Nachfolgend finden Sie strukturierte taktische Schritte für zwei der effektivsten Strategien, die in Wettkampfmatches zum Einsatz kommen.
+
+### Szenario A: Die "Öffentlicher Platz"-Alibi-Methode
+
+| Schritt | Erforderliche Aktion | Erwartetes Ergebnis |
+| :--- | :--- | :--- |
+| **1. Ziel-Markierung** | Gehen Sie am beabsichtigten Ziel vorbei, um den 45-Sekunden-Gedächtnispuffer aufzufrischen. | Das Gesicht des gegnerischen Avatars wird im Speicher abgelegt. |
+| **2. Sicherer Rückzug** | Begeben Sie sich in einen toten Winkel oder einen privaten Raum ohne Kameraabdeckung. | Unterbrechen Sie die Sichtlinie zu Zuschauern. |
+| **3. Eintragung** | Rüsten Sie das Buch aus, geben Sie den Zielnamen ein, lassen Sie die Todesursache auf Standard. | Der Eintrag wird fixiert; der 40-Sekunden-Timer beginnt. |
+| **4. Alibi-Aufbau** | Legen Sie das Buch sofort ab und schließen Sie sich innerhalb von 15 Sekunden einer Gruppe von mindestens 2 anderen Spielern an. | Mehrere Zeugen beobachten Ihren Avatar beim Sprechen. |
+| **5. Der Zusammenbruch** | Das Ziel bricht zusammen, während Sie aktiv im Chat tippen und der Timer abläuft. | Vollständige Entlastung während der Diskussionsphase. |
+
+### Szenario B: Das "Framing-Manöver"
+
+| Schritt | Erforderliche Aktion | Erwartetes Ergebnis |
+| :--- | :--- | :--- |
+| **1. Beobachtung** | Identifizieren Sie zwei Spieler, die in einem abgelegenen Bereich nahe beieinander stehen. | Paar für das Setup ausgewählt. |
+| **2. Ursachen-Eintragung** | Tragen Sie den Namen von Ziel A mit dem Modifikator "Raserei / Feindseligkeit" ein, der auf Ziel B gerichtet ist. | Ziel A wird in Richtung Ziel B gezwungen. |
+| **3. Panikauslöser** | Ziel A bricht mit physischen Kontaktsignalen vor den Füßen von Ziel B zusammen. | Ziel B wird am Tatort ertappt. |
+| **4. Anschuldigungsführung** | Melden Sie die Leiche als Erster und weisen Sie auf die Positionierung von Ziel B hin. | Die Gruppe wählt einen unschuldigen Zivilisten heraus. |
+
+---
+
+## Konterspiel: So verteidigen Sie sich gegen das Notizbuch
+
+Das Überleben gegen einen fähigen Schreiber erfordert proaktives Gegenspiel und scharfe Situationswahrnehmung. Wenn Sie einen aktiven Schreiber in der Lobby vermuten, halten Sie sich an folgende Überlebensprinzipien:
+
+1. **Vermeiden Sie vorhersehbares Alleingebaren:** Isolierte Spieler sind die leichtesten Ziele, da ihr Tod keine unmittelbaren Hinweise liefert.
+2. **Verfolgen Sie Mikro-Bewegungen von Avataren:** Das Schreiben erfordert das Öffnen einer UI-Aufforderung, was häufig dazu führt, dass der Avatar des Schreibers für 3 bis 8 Sekunden abrupt stehen bleibt. Achten Sie auf jeden, der in ruhigen Korridoren wiederholt einfriert.
+3. **Überprüfen Sie Namensänderungen und Handles:** Achten Sie in Lobbys mit Mechanismen zur Namensverschleierung genau auf die Anzeigenamen im Vergleich zu den tatsächlichen Account-Handles, um Schreiber zu ertappen, die sich vertippen und Abklingzeitstrafen erleiden.
+4. **Koordinieren Sie Detektiv-Durchsuchungen:** Schicken Sie Ermittler niemals allein los. Gepaarte Detektiveinheiten stellen sicher, dass, falls einer einer plötzlichen Eliminierung zum Opfer fällt, der andere sofort die nahegelegenen Sichtlinien überprüfen kann.
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+### Kann das BloxNote-Notizbuch mehrere Spieler gleichzeitig eliminieren?
+Nein. Das Standard-Spielbalancing beschränkt den Gegenstand auf einen Namen pro Eintragungszyklus. Nach dem Absenden eines Eintrags muss der Schreiber die Standard-Abklingzeit (in der Regel 60 Sekunden) abwarten, bevor er das Interface öffnen kann, um ein weiteres Ziel einzutragen.
+
+### Was passiert, wenn man den Namen eines Spielers im BloxNote-Notizbuch falsch schreibt?
+Die Eingabe eines falschen Benutzernamens löst eine automatische Tippfehler-Strafe aus. Das Buch wird für 15 Sekunden gesperrt, in denen keine Namen eingetippt werden können, und Ihr Avatar gibt einen subtilen audiovisuellen Hinweis ab, den Ermittler in der Nähe bemerken können.
+
+### Können Detektive das BloxNote-Notizbuch stehlen oder zerstören?
+Detektive können den Gegenstand nicht direkt aus dem Inventar zerstören, aber eine erfolgreiche Verhaftung oder Durchsuchung des Besitzers beschlagnahmt das Journal und sichert dem Ermittlerteam sofort den Sieg.
+
+### Schützt das Ändern des Avatar-Aussehens mitten in der Runde vor dem Notizbuch?
+Basierend auf Spielerfahrungen auf Wettbewerbsservern heben kosmetische Änderungen oder der Wechsel von Accessoires den Gesichtsgedächtnis-Puffer nicht auf, sobald ein Gegner während des aktiven Speicherfensters eine Sichtlinie hergestellt hat.

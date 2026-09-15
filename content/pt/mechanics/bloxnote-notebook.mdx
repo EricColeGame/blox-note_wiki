@@ -1,0 +1,151 @@
+export const metadata = {
+  title: "Guia do Caderno BloxNote: Mecânicas Principais, Regras e Estratégias",
+  description: "Domine as mecânicas do caderno BloxNote no Roblox. Aprenda regras de eliminação, tempo de causa da morte, recargas e as melhores estratégias de sobrevivência.",
+  category: "mechanics",
+  date: "2026-09-15",
+}
+
+Dominar os poderes sobrenaturais em jogos de dedução social exige a compreensão de cada pequena regra mecânica antes de entrar no servidor. O **caderno BloxNote** serve como a ferramenta definitiva de eliminação, diretamente inspirado em thrillers psicológicos lendários e adaptado para salas multijogador de ritmo acelerado. Aprender a empunhar o **caderno BloxNote** corretamente separa novatos descuidados de estrategistas dominantes, capazes de controlar rodadas inteiras a partir das sombras.
+
+Seja você encarregado de identificar alvos ou de sobreviver contra um escritor oculto, compreender o funcionamento interno deste item é essencial para o sucesso competitivo. Abaixo está o detalhamento completo de como o item opera, suas regras exatas, restrições operacionais e estratégias avançadas para dominar suas partidas.
+
+---
+
+## Mecânicas Principais e Regras do Caderno BloxNote
+
+O ciclo central de jogabilidade do BloxNote gira em torno das fases de obtenção e execução do item. Quando um jogador obtém o item, ele recebe uma interface de usuário interativa que lembra um diário encadernado em couro, onde nomes, condições e tempos podem ser inscritos.
+
+Diferente de armas simples de clicar para atacar encontradas em títulos de ação padrão na [plataforma oficial do Roblox](https://www.roblox.com), este item requer entradas precisas. Escrever incorretamente o nome de usuário de um alvo ou deixar de cumprir as condições pré-requisito invalidará o registro, desperdiçando um tempo valioso e expondo sua função.
+
+### As Regras Básicas de Inscrição
+
+Para acionar uma eliminação com sucesso, o usuário deve satisfazer várias condições mecânicas dentro do motor do jogo:
+
+| Parâmetro de Requisito | Condição da Engine | Resultado de Falha |
+| :--- | :--- | :--- |
+| **Nome do Alvo** | Nome de Exibição exato ou Identificador Único | Ação nula; o temporizador reinicia |
+| **Linha de Visão Direta** | Olhar direto ou confirmação visual recente | A inscrição não é registrada |
+| **Buffer de Memória Facial** | Deve ter renderizado o avatar do alvo nos últimos 45s | Aviso em tinta vermelha; sem ativação |
+| **Causa da Morte** | Especificada dentro da janela de 6,5 segundos | Padrão: ataque cardíaco comum |
+| **Contexto Ambiental** | Física plausível dentro do mapa | O alvo reverte para a falha padrão |
+
+Se um jogador tentar eliminar um alvo cujo rosto não tenha sido registrado pela câmera do campo de visão do seu avatar, o caderno rejeitará a entrada. Essa mecânica de buffer visual impede varreduras na sala de spawn e força o escritor a se movimentar ativamente pelo mapa.
+
+---
+
+## Especificações Técnicas: Temporizadores, Recargas e Penalidades
+
+A operação do item é regida por janelas de tempo rigorosas. A precisão é recompensada, enquanto erros precipitados acionam penalidades severas que deixam o escritor vulnerável a contra-investigações de detetives e inocentes.
+
+### Temporizadores Operacionais e Janelas de Ação
+
+```
+[Alvo Inscrito] ──> (Janela de Causa 6,5s) ──> [Atraso de Execução 40s] ──> [Eliminação]
+                            │
+                            └── (Sem entrada) ──> [Padrão: Ataque Cardíaco]
+```
+
+A tabela abaixo descreve os principais tempos técnicos que ditam o ritmo da rodada:
+
+| Fase / Ação | Duração do Tempo | Descrição |
+| :--- | :--- | :--- |
+| **Janela de Inscrição** | 8,0 Segundos | Tempo permitido para digitar o nome do alvo sem cancelar |
+| **Janela de Especificação** | 6,5 Segundos | Período de tolerância para inserir uma causa de morte personalizada |
+| **Atraso Padrão de Morte** | 40,0 Segundos | Temporizador base antes que o alvo sofra um ataque cardíaco |
+| **Recarga Padrão** | 60,0 Segundos | Intervalo antes que um novo nome possa ser inscrito |
+| **Penalidade de Erro de Escrita** | 15,0 Segundos | Bloqueio de entrada aplicado se um nome inválido for enviado |
+| **Limite de Páginas** | 5-8 Entradas | Capacidade total por rodada dependendo das configurações do servidor |
+
+Relatos da comunidade e a experiência dos jogadores destacam que gerenciar o atraso de execução de 40 segundos é a habilidade mais crítica. Como as eliminações não são instantâneas, os alvos ainda podem se comunicar, votar ou acionar tarefas de emergência antes de sucumbirem aos efeitos do item.
+
+---
+
+## Opções de Causa da Morte e Interações com o Mapa
+
+Ao utilizar o **caderno BloxNote**, os jogadores podem especificar condições exclusivas de eliminação para manipular a cena do crime. A escolha de causas de morte personalizadas pode despistar investigadores, forçar pânico em grupo ou isolar alvos de alta prioridade.
+
+### Tipos de Morte e Exigências Ambientais
+
+| Causa da Morte | Condições Necessárias | Evidência Deixada na Cena do Crime | Dificuldade de Investigação |
+| :--- | :--- | :--- | :--- |
+| **Ataque Cardíaco** | Nenhuma (Condição padrão) | Colapso limpo do avatar, sem sangue | Alta (Deixa zero pistas ambientais) |
+| **Trânsito / Veículo** | O mapa deve conter estradas/perigos ativos | Avatar deslocado em direção a vias de trânsito | Baixa (Manipulação óbvia) |
+| **Queda / Impacto** | O alvo deve estar a até 30 studs de bordas/saliências | Avatar cai da elevação mais próxima | Média (Pode parecer movimento acidental) |
+| **Frenesi / Hostilidade** | O alvo deve estar perto de outro jogador | O alvo avança no avatar mais próximo antes da queda | Extrema (Incrimina um inocente como culpado) |
+| **Armadilha Estrutural** | O alvo deve estar em ambientes fechados | Perigo de proximidade é ativado (portas/luzes) | Média (Sinaliza um ataque orquestrado) |
+
+Selecionar a causa de morte correta permite que o escritor crie álibis convincentes. Por exemplo, acionar uma condição de Queda enquanto o escritor é visto no nível do solo gera dúvidas entre os investigadores que analisam os ângulos de linha de visão.
+
+---
+
+## Confrontos de Funções e Matriz Estratégica de Ameaças
+
+A sobrevivência no BloxNote depende de saber como suas capacidades se comparam às funções adversárias. Cada classe de investigador possui ferramentas de detecção exclusivas projetadas para identificar e neutralizar o portador do caderno.
+
+### Tabela Comparativa de Confrontos
+
+| Função Oponente | Nível de Ameaça | Principal Habilidade de Resposta | Estratégia do Escritor |
+| :--- | :--- | :--- | :--- |
+| **Detetive Líder** | Extremo | Inspeção com lupa / Checagem de resíduo de tinta | Mantenha 15+ studs de distância; use janelas de álibi |
+| **Técnico de Vigilância** | Alto | Análise de registros de câmera e rastreamento visual | Evite cantos estáticos durante a fase de escrita de 8s |
+| **Analista Forense** | Médio | Exame de corpo para tempo da causa da morte | Alterne condições de morte para ocultar padrões |
+| **Testemunha / Cidadão**| Baixo | Relato direto de testemunha ocular | Elimine alvos isolados fora de aglomerações |
+| **Guarda de Segurança** | Alto | Atordoamento físico direto e revista de inventário | Mantenha o item desequipado até abrir a janela de escrita |
+
+### Prioridades Táticas Essenciais
+
+- **Nunca segure o item continuamente:** Equipar o diário ativa sinais sutis de animação (como postura de mãos abaixadas) que detetives experientes procuram.
+- **Alterne entre os alvos estrategicamente:** Eliminar os investigadores mais vocais imediatamente atrai suspeitas para jogadores quietos. Misture-se participando das discussões públicas.
+- **Explore o intervalo de 40 segundos:** Inscreva um nome, caminhe imediatamente para uma área pública movimentada e converse com outros jogadores. Quando a eliminação ocorrer, sua presença física na multidão fornecerá um álibi incontestável.
+
+---
+
+## Manual Avançado: Cenários de Execução Passo a Passo
+
+Executar rodadas perfeitas com o **caderno BloxNote** exige disciplina rigorosa. Abaixo estão passos táticos estruturados para duas das estratégias mais eficazes utilizadas em partidas competitivas.
+
+### Cenário A: O Método do "Álibi em Praça Pública"
+
+| Passo | Ação Necessária | Resultado Esperado |
+| :--- | :--- | :--- |
+| **1. Marcação do Alvo** | Caminhe perto do alvo pretendido para atualizar o buffer de memória visual de 45 segundos. | O rosto do avatar do alvo é armazenado na memória. |
+| **2. Recuo Seguro** | Mova-se para um ponto cego ou sala privada sem cobertura de câmeras. | Quebre a linha de visão direta de curiosos. |
+| **3. Inscrição** | Equipe o livro, insira o nome do alvo e mantenha a causa da morte como padrão. | Inscrição confirmada; o temporizador de 40 segundos começa. |
+| **4. Estabelecimento de Álibi**| Desequipe instantaneamente e junte-se a um grupo de pelo menos 2 outros jogadores em até 15 segundos. | Várias testemunhas observam seu avatar conversando. |
+| **5. O Colapso** | O alvo cai quando o tempo expira enquanto você digita ativamente no chat. | Isenção completa de culpa durante a fase de discussão. |
+
+### Cenário B: A "Manobra de Incriminação"
+
+| Passo | Ação Necessária | Resultado Esperado |
+| :--- | :--- | :--- |
+| **1. Observação** | Identifique dois jogadores próximos um do outro em uma área isolada. | Dupla selecionada para a armadilha. |
+| **2. Inscrição da Causa** | Inscreva o nome do Alvo A com o modificador "Frenesi / Hostilidade" direcionado ao Alvo B. | Alvo A é forçado a avançar contra o Alvo B. |
+| **3. Gatilho de Pânico** | O Alvo A colapsa aos pés do Alvo B com sinais de contato físico. | O Alvo B é flagrado na cena do crime. |
+| **4. Liderança de Acusação** | Seja o primeiro a reportar o corpo e aponte o posicionamento do Alvo B. | O grupo vota e elimina um inocente. |
+
+---
+
+## Contra-ataque: Como se Defender Contra o Caderno
+
+Sobreviver contra um escritor habilidoso requer contra-estratégias proativas e percepção situacional aguçada. Se você suspeitar de um escritor ativo na sala, siga estes princípios de sobrevivência:
+
+1. **Evite Andar Sozinho de Forma Previsível:** Jogadores isolados são os alvos mais fáceis porque suas mortes não fornecem pistas imediatas.
+2. **Monitore Micro-Movimentos dos Avatares:** Escrever requer abrir uma interface, o que frequentemente faz o avatar do escritor parar de se mover de forma abrupta por 3 a 8 segundos. Fique atento a qualquer um que congele repetidamente em corredores vazios.
+3. **Analise Trocas de Nomes e Identificadores:** Em salas com mecânicas de ocultação de nomes, preste muita atenção aos nomes de exibição versus identificadores reais de conta para flagrar escritores errando a digitação e sofrendo penalidades de recarga.
+4. **Coordene Varreduras de Detetives:** Nunca envie investigadores sozinhos. Unidades de detetives em duplas garantem que, se um for vítima de uma eliminação repentina, o outro possa verificar imediatamente as linhas de visão próximas.
+
+---
+
+## Perguntas Frequentes (FAQ)
+
+### O caderno BloxNote pode eliminar vários jogadores de uma só vez?
+Não. O balanceamento padrão do jogo restringe o item a um nome por ciclo de inscrição. Depois de enviar uma entrada, o escritor deve aguardar o tempo de recarga padrão (normalmente 60 segundos) antes de abrir a interface para inscrever outro alvo.
+
+### O que acontece se você escrever o nome de um jogador incorretamente no caderno BloxNote?
+Inserir um nome de usuário incorreto ativa uma Penalidade de Erro de Escrita automática. O livro é bloqueado por 15 segundos, período no qual nenhum nome pode ser digitado, e seu avatar emite um sinal audiovisual sutil que investigadores próximos podem detectar.
+
+### Os detetives podem roubar ou destruir o caderno BloxNote?
+Os detetives não podem destruir o item diretamente do inventário, mas realizar uma prisão ou revista bem-sucedida no portador confiscará o diário, garantindo imediatamente a vitória para a equipe de investigação.
+
+### Mudar a aparência do avatar no meio da rodada protege contra o caderno?
+Com base na experiência de jogadores em servidores competitivos, mudanças cosméticas ou trocas de acessórios não limpam o buffer de memória facial depois que um oponente estabeleceu linha de visão durante a janela de memória ativa.

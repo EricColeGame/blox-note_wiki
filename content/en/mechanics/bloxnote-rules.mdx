@@ -1,0 +1,148 @@
+export const metadata = {
+  title: "BloxNote Rules: Complete Mechanics, Roles, and Meeting Guide (2026)",
+  description: "Master the official BloxNote rules. Learn role win conditions, Death Note kill mechanics, task thresholds, and voting math to win every lobby.",
+  category: "mechanics",
+  date: "2026-09-15",
+}
+
+Surviving your first few minutes in Roblox's hit social deduction experience requires a firm grasp of the fundamental **BloxNote rules**. Without understanding the exact victory thresholds and camp mechanics, even veteran social deduction players often find themselves eliminated before the first meeting is ever called. Mastering the core **BloxNote rules** ensures that whether you spawn with the Death Note or take on the mantle of L, you know precisely how to manipulate the clock, task bar, and voting floor to secure a win.
+
+The game places up to 10 players into a tense, asymmetric battlefield heavily inspired by the classic supernatural thriller premise featured in the [Death Note franchise on Wikipedia](https://en.wikipedia.org/wiki/Death_Note). While casual players often treat matches as a simple game of hide-and-seek, high-level lobbies are decided entirely by underlying rule interactions and numerical thresholds.
+
+---
+
+## Role Objectives and Camp Win Conditions
+
+Every match splits the lobby into two distinct factions: the Killers and the Town. Understanding the core **BloxNote rules** regarding faction objectives is critical, as casting an uninformed vote can instantly hand the match to the opposing side. 
+
+The role distribution remains asymmetric, meaning each participant has unique responsibilities and constraints during active gameplay.
+
+| Role | Faction Camp | Primary Win Condition | Core Mechanical Ability / Tool |
+| :--- | :--- | :--- | :--- |
+| **Kira** | Killers | Eliminate Town members until Killers reach parity or majority | Holds the physical Death Note; executes names |
+| **Kira Follower** | Killers | Protect Kira and secure Killer parity | Holds backup pages; serves as courier and decoy |
+| **Investigator** | Town | Complete the shared task meter or vote out all Killers | Fills task progress; can report bodies and call meetings |
+| **L** | Town | Identify and eliminate Kira through investigation | Possesses server-authoritative ID check intel tools |
+
+### Town Victory Requirements
+Town players (Investigators and L) secure an instant victory under three specific conditions:
+1. Every Killer (both Kira and the Follower) is successfully ejected through emergency votes.
+2. Kira is directly neutralized mid-round through specific mechanics.
+3. The collective task meter reaches 100% completion before the Killers achieve numerical parity.
+
+### Killer Victory Requirements
+The Killer camp wins immediately if the total number of living Killers equals or exceeds the number of living Town members. Furthermore, if the match timer expires before Town completes all tasks or identifies the culprit, victory defaults to the Killers.
+
+---
+
+## Death Note Mechanics, Kill Sequences, and Task Meter Rates
+
+Understanding how elimination works under the **BloxNote rules** separates novice players from lethal assassins. Kira cannot simply eliminate targets across the map at will; strict line-of-sight and proximity constraints govern every kill.
+
+```
+Kira Writes Name in Notebook ➔ Target Screen Flashes ➔ 3-4s Death Animation ➔ HUD Kill Count Updates
+```
+
+### The Elimination Sequence
+When Kira activates the Death Note, a three-phase sequence triggers on the server:
+- **Proximity Check**: Kira must be in close physical proximity to the chosen target when writing. There are no ranged kills.
+- **Victim Warning**: The target's screen briefly flashes, providing a split-second realization before animation lock.
+- **Death Resolution**: Approximately 3 to 4 seconds after the name is written, the victim's character collapses, and the elimination registers globally on the round HUD.
+
+### Notebook Handoff Rules
+A widespread misconception among beginners involves the Kira Follower's capabilities. Community reports and competitive guides confirm that the Follower cannot write names under standard public server conditions. The Follower functions strictly as a courier and decoy. If Kira drops the notebook or is voted out, server-side handoff protocols dictate when and how the Death Note can be transferred to activate a new Kira.
+
+### Task Values and Progression Benchmarks
+Investigators balance the kill timer by completing tasks distributed across the facility. These tasks feed into a single, synchronized progress meter visible to all Town players.
+
+| Task Category | Progress Contributed | Average Duration | Optimal Strategic Use |
+| :--- | :--- | :--- | :--- |
+| **Short Task** | 5% – 8% | 8 – 12 seconds | Fast rotations; ideal for solo Investigators |
+| **Long Task** | 12% – 18% | 20 – 30 seconds | High reward; best attempted with trusted cover |
+| **Group Task** | 10% per participant | 15 – 20 seconds | Rapid team bursts; speeds up late-game task rushes |
+
+Task progress resets to 0% at the start of every match and does not carry over between rounds.
+
+---
+
+## Meeting Protocols, Report Buttons, and Voting Threshold Math
+
+Emergency meetings and body reports pause the active round timer and completely disable Kira’s ability to write names. Knowing the mathematical voting thresholds established by the **BloxNote rules** prevents wasted rounds and accidental self-sabotage during crucial deliberations.
+
+### Step-by-Step Meeting Procedure
+
+1. **Triggering the Call**: An Investigator or L presses their single-use emergency button or reports a discovered body.
+2. **Floor Opening**: The player who reported the body is granted speaking priority to deliver initial witness testimony.
+3. **Open Deliberation**: The lobby debates evidence while the main kill timer remains frozen.
+4. **Ballot Casting**: Players choose a suspect or select "Skip."
+5. **Resolution**: If the required threshold is met, the suspect is ejected. Otherwise, the round resumes with no ejections.
+
+| Living Players Remaining | Votes Required for Ejection | Tie Result Outcome | Strategic Impact |
+| :--- | :--- | :--- | :--- |
+| **10** | 6 | No ejection (Status Quo) | Town requires strong consensus |
+| **8** | 5 | No ejection (Status Quo) | Safe buffer against misclicks |
+| **6** | 4 | No ejection (Status Quo) | Critical mid-game breakpoint |
+| **5** | 3 | No ejection (Status Quo) | High-stakes threshold for Town |
+| **4** | 3 | **Ejection Triggers** | **Lethal Endgame**: Simple majority ejects |
+| **3** | 2 | **Ejection Triggers** | **Match Point**: Single swing vote decides match |
+
+Under standard **BloxNote rules**, tie votes above four living players fail to pass, resulting in no player being removed. However, once the lobby drops to 4 or 3 players, the threshold math shifts dramatically. At this stage, a simple majority instantly executes an ejection, making late-game meetings exceptionally dangerous.
+
+---
+
+## Map Zones, Danger Levels, and Spawn Dynamics
+
+The standard map can be traversed from corner to corner in roughly 25 to 30 seconds at a full sprint. Because travel times are brief, map awareness centers around managing visibility and traffic flow rather than navigating complex layouts.
+
+| Map Sector | Elimination Risk | Meeting Frequency | Primary Tactical Purpose |
+| :--- | :--- | :--- | :--- |
+| **Main Hall** | **Very High** | **Very High** | Central transit hub; dangerous for lone Investigators |
+| **Library** | **High** | Medium | Chokepoint layout; common ambush corridor |
+| **Basement** | **High** | Low | Low-visibility area; prime notebook handoff zone |
+| **Rooftop** | Medium | Low | Isolated finisher spot for late-game Killer plays |
+| **Kitchen** | Low | Low | Relatively secure sector for completing early tasks |
+
+### The First 30 Seconds
+At round start, players spawn across four designated map perimeters. Player experience suggests that rushing immediately through the Main Hall during the opening 30 seconds leaves Investigators vulnerable to quick eliminations before tasks are logged. Defensive routing through the Kitchen or outer corridors allows Town members to group up safely before venturing into high-traffic chokepoints.
+
+---
+
+## Advanced Strategy: Operating Within the Rule Framework
+
+Winning against experienced players requires leveraging the official **BloxNote rules** to create strategic dilemmas for the opposing side.
+
+```
+       [ L Proximity Scan ]
+              │
+      ┌───────┴───────┐
+      ▼               ▼
+[ Target: Kira ]  [ Target: Follower (Decoy) ]
+      │               │
+  Instant Call    Intel Tool Burned / Kira Safe
+```
+
+### Killer Team Tactics
+- **The Two-Room Isolation Principle**: Because Kira's writing animation leaves them momentarily stationary and vulnerable, never loiter in a room with a potential victim for more than two seconds. Execute the kill swiftly and rotate through an adjacent zone immediately.
+- **The Task Feint**: Kira players can stand near task stations during the first minute to simulate objective progress. In uncoordinated lobbies, this creates a reliable alibi during the first meeting.
+- **Follower Decoy Routing**: The Kira Follower should purposely shadow L or draw attention in meetings. Absorbing an ejection on the Follower protects the active Death Note holder and preserves Kira's momentum.
+
+### Town and L Investigation Tactics
+- **Task Prioritization**: Town members should focus on task completion during early rounds rather than calling speculative emergency meetings. Calling a meeting without hard evidence wastes Town's single-use buttons and stalls task meter momentum.
+- **L's Proximity Scan Stacking**: L can sequentially track multiple suspects to gather server-authoritative alignment readings. When L confirms a Killer identity, calling a meeting immediately freezes the board and forces a Town vote.
+- **Basement Monitoring**: Since notebook handoffs and clandestine meetings between Killers often take place in low-traffic areas like the Basement, smart Investigators periodically path near these rooms to catch suspicious handoffs.
+
+---
+
+## Frequently Asked Questions
+
+### What are the most critical BloxNote rules for beginners to learn first?
+New players should prioritize learning the faction camp split (Killers vs. Town), the task meter victory condition, the close-range requirement for the Death Note, and the voting threshold change that occurs when four or fewer players remain. Mastering these four foundational elements prevents early mistakes and accidental losses.
+
+### Can the Kira Follower write names in the Death Note?
+No. Under the official **BloxNote rules**, only the player assigned to the active Kira role has the ability to write names and trigger eliminations. The Follower acts as a teammate who can carry spare pages, pass items, and serve as a social decoy during voting rounds.
+
+### What happens when a meeting vote results in a tie?
+If five or more players are alive, a tied vote results in no ejection, closing the meeting and resuming the active match. However, once the lobby reaches four or fewer living players, voting thresholds become significantly more aggressive, allowing simple majorities to push through decisive late-game ejections.
+
+### How many players are needed to start a BloxNote lobby?
+Standard public matches require 8 to 10 players to begin, with 10 representing the maximum lobby size. Private custom lobbies can run with as few as 6 players, though task thresholds and elimination targets adjust dynamically to match smaller player counts.

@@ -1,0 +1,148 @@
+export const metadata = {
+  title: "Regras do BloxNote: Guia Completo de Mecânicas, Funções e Reuniões (2026)",
+  description: "Domine as regras oficiais do BloxNote. Aprenda condições de vitória, mecânicas do Death Note, metas de tarefas e cálculos de votação para vencer.",
+  category: "mechanics",
+  date: "2026-09-15",
+}
+
+Sobreviver aos seus primeiros minutos no aclamado jogo de dedução social do Roblox exige uma compreensão sólida das **regras do BloxNote** fundamentais. Sem entender os limites exatos de vitória e as mecânicas de cada facção, até mesmo jogadores veteranos de dedução social costumam ser eliminados antes mesmo da primeira reunião ser convocada. Dominar as **regras do BloxNote** essenciais garante que, quer você comece com o Death Note ou assuma o papel de L, saberá exatamente como manipular o tempo, a barra de tarefas e as votações para garantir a vitória.
+
+O jogo coloca até 10 jogadores em um campo de batalha tenso e assimétrico, fortemente inspirado na clássica premissa de suspense sobrenatural apresentada na [franquia Death Note na Wikipédia](https://en.wikipedia.org/wiki/Death_Note). Enquanto jogadores casuais costumam tratar as partidas como um simples esconde-esconde, lobbies de alto nível são decididos inteiramente pela interação das regras subjacentes e limites numéricos.
+
+---
+
+## Objetivos das Funções e Condições de Vitória das Facções
+
+Cada partida divide o lobby em duas facções distintas: os Assassinos (Killers) e a Cidade (Town). Compreender as **regras do BloxNote** centrais sobre os objetivos de cada grupo é fundamental, pois um voto mal calculado pode entregar a vitória instantaneamente ao lado adversário.
+
+A distribuição de funções é assimétrica, o que significa que cada participante possui responsabilidades e restrições únicas durante o jogo.
+
+| Função | Facção | Condição Principal de Vitória | Habilidade Mecânica Principal / Ferramenta |
+| :--- | :--- | :--- | :--- |
+| **Kira** | Assassinos | Eliminar membros da Cidade até alcançar paridade ou maioria | Possui o Death Note físico; executa nomes |
+| **Seguidor do Kira** (Kira Follower) | Assassinos | Proteger Kira e garantir a paridade dos Assassinos | Guarda páginas extras; atua como mensageiro e distração |
+| **Investigador** (Investigator) | Cidade | Concluir a barra de tarefas compartilhada ou eliminar todos os Assassinos | Avança a barra de tarefas; pode reportar corpos e convocar reuniões |
+| **L** | Cidade | Identificar e eliminar Kira por meio de investigação | Possui ferramentas autoritativas de checagem de identidade no servidor |
+
+### Requisitos de Vitória da Cidade
+Os jogadores da Cidade (Investigadores e L) garantem uma vitória imediata sob três condições específicas:
+1. Todos os Assassinos (tanto Kira quanto o Seguidor) são ejetados com sucesso através de votações de emergência.
+2. Kira é neutralizado diretamente durante a rodada por meio de mecânicas específicas.
+3. A barra coletiva de tarefas atinge 100% de conclusão antes que os Assassinos alcancem a paridade numérica.
+
+### Requisitos de Vitória dos Assassinos
+A facção dos Assassinos vence imediatamente se o número total de Assassinos vivos for igual ou superior ao número de membros da Cidade vivos. Além disso, se o cronômetro da partida expirar antes que a Cidade conclua todas as tarefas ou identifique o culpado, a vitória é concedida por padrão aos Assassinos.
+
+---
+
+## Mecânicas do Death Note, Sequências de Eliminação e Taxas da Barra de Tarefas
+
+Compreender como as eliminações funcionam sob as **regras do BloxNote** separa jogadores novatos de assassinos letais. Kira não pode simplesmente eliminar alvos pelo mapa à vontade; restrições rigorosas de linha de visão e proximidade regem cada abate.
+
+```
+Kira escreve o nome no caderno ➔ Tela do alvo pisca ➔ Animação de morte de 3-4s ➔ Contador de abates no HUD é atualizado
+```
+
+### A Sequência de Eliminação
+Quando Kira ativa o Death Note, uma sequência em três fases é acionada no servidor:
+- **Verificação de Proximidade**: Kira deve estar fisicamente próximo ao alvo escolhido ao escrever. Não existem eliminações à distância.
+- **Aviso à Vítima**: A tela do alvo pisca brevemente, proporcionando uma fração de segundo de percepção antes do bloqueio da animação.
+- **Resolução da Morte**: Aproximadamente 3 a 4 segundos após o nome ser escrito, o personagem da vítima cai e a eliminação é registrada globalmente no HUD da rodada.
+
+### Regras de Troca de Caderno
+Um equívoco comum entre iniciantes envolve as capacidades do Seguidor do Kira. Relatos da comunidade e guias competitivos confirmam que o Seguidor não pode escrever nomes em condições padrão de servidores públicos. O Seguidor atua estritamente como mensageiro e isca. Se Kira soltar o caderno ou for eliminado pelo voto, protocolos de transferência no servidor determinam quando e como o Death Note pode ser passado para ativar um novo Kira.
+
+### Valores das Tarefas e Métricas de Progresso
+Os Investigadores equilibram o cronômetro de abates concluindo tarefas distribuídas pela instalação. Essas tarefas alimentam uma barra de progresso única e sincronizada, visível para todos os jogadores da Cidade.
+
+| Categoria de Tarefa | Progresso Contribuído | Duração Média | Uso Estratégico Ideal |
+| :--- | :--- | :--- | :--- |
+| **Tarefa Curta** | 5% – 8% | 8 – 12 segundos | Rotações rápidas; ideal para Investigadores sozinhos |
+| **Tarefa Longa** | 12% – 18% | 20 – 30 segundos | Alta recompensa; melhor se feita com escolta confiável |
+| **Tarefa em Grupo** | 10% por participante | 15 – 20 segundos | Avanços rápidos em equipe; acelera o fim de jogo |
+
+O progresso das tarefas é redefinido para 0% no início de cada partida e não é transferido entre rodadas.
+
+---
+
+## Protocolos de Reunião, Botões de Reporte e Matemática de Votação
+
+Reuniões de emergência e reportes de corpos pausam o cronômetro da rodada e desativam completamente a capacidade de Kira de escrever nomes. Conhecer os limites matemáticos de votos estabelecidos pelas **regras do BloxNote** evita desperdício de rodadas e autosabotagem durante deliberações cruciais.
+
+### Procedimento Passo a Passo da Reunião
+
+1. **Acionamento**: Um Investigador ou L aperta seu botão de emergência de uso único ou reporta um corpo encontrado.
+2. **Abertura da Fala**: O jogador que reportou o corpo tem prioridade de fala para apresentar o testemunho inicial.
+3. **Deliberação Aberta**: O lobby debate as evidências enquanto o cronômetro principal de abates permanece pausado.
+4. **Votação**: Os jogadores escolhem um suspeito ou votam em "Pular" (Skip).
+5. **Resolução**: Se a quantidade necessária de votos for atingida, o suspeito é ejetado. Caso contrário, a rodada é retomada sem eliminações.
+
+| Jogadores Vivos Restantes | Votos Necessários para Ejeção | Resultado de Empate | Impacto Estratégico |
+| :--- | :--- | :--- | :--- |
+| **10** | 6 | Nenhuma ejeção (Status Quo) | A Cidade precisa de forte consenso |
+| **8** | 5 | Nenhuma ejeção (Status Quo) | Margem de segurança contra cliques errados |
+| **6** | 4 | Nenhuma ejeção (Status Quo) | Ponto de virada crítico no meio de jogo |
+| **5** | 3 | Nenhuma ejeção (Status Quo) | Momento de alto risco para a Cidade |
+| **4** | 3 | **Ejeção Acontece** | **Fim de Jogo Letal**: Maioria simples ejeta |
+| **3** | 2 | **Ejeção Acontece** | **Match Point**: Um único voto decisivo define o jogo |
+
+Sob as **regras do BloxNote** padrão, empates com mais de quatro jogadores vivos não resultam em expulsão. No entanto, quando o lobby se reduz a 4 ou 3 jogadores, a matemática de votação muda drasticamente. Nessa fase, a maioria simples executa a ejeção imediatamente, tornando as reuniões de fim de jogo extremamente perigosas.
+
+---
+
+## Zonas do Mapa, Níveis de Perigo e Dinâmica de Spawn
+
+O mapa padrão pode ser atravessado de ponta a ponta em cerca de 25 a 30 segundos em corrida contínua. Como os tempos de deslocamento são curtos, a noção de mapa gira em torno de gerenciar a visibilidade e o fluxo de jogadores, em vez de memorizar rotas complexas.
+
+| Setor do Mapa | Risco de Eliminação | Frequência de Reuniões | Propósito Tático Principal |
+| :--- | :--- | :--- | :--- |
+| **Salão Principal** (Main Hall) | **Muito Alto** | **Muito Alto** | Ponto central de trânsito; perigoso para Investigadores sozinhos |
+| **Biblioteca** (Library) | **Alto** | Médio | Layout de afunilamento; corredor comum de emboscadas |
+| **Porão** (Basement) | **Alto** | Baixo | Área de baixa visibilidade; zona ideal para troca de caderno |
+| **Telhado** (Rooftop) | Médio | Baixo | Local isolado para finalizações táticas dos Assassinos |
+| **Cozinha** (Kitchen) | Baixo | Baixo | Setor relativamente seguro para tarefas iniciais |
+
+### Os Primeiros 30 Segundos
+No início da rodada, os jogadores surgem espalhados por quatro perímetros designados no mapa. A experiência prática mostra que correr direto pelo Salão Principal durante os primeiros 30 segundos deixa os Investigadores vulneráveis a eliminações rápidas antes mesmo de registrar tarefas. Fazer rotas defensivas pela Cozinha ou corredores externos permite que os membros da Cidade se agrupem em segurança antes de se aventurarem em pontos de tráfego intenso.
+
+---
+
+## Estratégia Avançada: Operando Dentro das Regras
+
+Vencer jogadores experientes exige aproveitar as **regras do BloxNote** oficiais para criar dilemas estratégicos para o time adversário.
+
+```
+       [ Varredura de Proximidade do L ]
+                      │
+              ┌───────┴───────┐
+              ▼               ▼
+      [ Alvo: Kira ]    [ Alvo: Seguidor (Isca) ]
+              │               │
+      Reunião Imediata   Ferramenta gasta / Kira seguro
+```
+
+### Táticas para a Equipe dos Assassinos
+- **O Princípio do Isolamento de Duas Salas**: Como a animação de escrita do Kira o deixa momentaneamente imóvel e vulnerável, nunca permaneça em uma sala com uma vítima em potencial por mais de dois segundos. Execute a eliminação rapidamente e rotacione para uma zona adjacente de imediato.
+- **O Blefe da Tarefa**: Jogadores de Kira podem ficar parados perto de estações de tarefas durante o primeiro minuto para simular progresso. Em lobbies desorganizados, isso cria um álibi confiável durante a primeira reunião.
+- **Rota de Isca do Seguidor**: O Seguidor do Kira deve deliberadamente seguir o L ou atrair suspeitas nas reuniões. Sofrer uma ejeção no lugar do Kira protege o portador do Death Note e mantém o ímpeto dos Assassinos.
+
+### Táticas de Investigação para a Cidade e L
+- **Priorização de Tarefas**: Os membros da Cidade devem focar em concluir tarefas nas primeiras rodadas em vez de convocar reuniões de emergência especulativas. Chamar reuniões sem provas concretas desperdiça os botões de uso único e atrasa o progresso da barra de tarefas.
+- **Varredura Sequencial do L**: L pode monitorar múltiplos suspeitos em sequência para obter leituras precisas de alinhamento pelo servidor. Assim que L confirmar a identidade de um Assassino, chamar uma reunião imediatamente trava a rodada e força a votação da Cidade.
+- **Monitoramento do Porão**: Como trocas de cadernos e encontros discretos entre Assassinos costumam ocorrer em áreas pouco movimentadas como o Porão, Investigadores atentos passam periodicamente perto dessas salas para flagrar transferências suspeitas.
+
+---
+
+## Perguntas Frequentes
+
+### Quais são as regras do BloxNote mais importantes para iniciantes aprenderem primeiro?
+Novos jogadores devem priorizar o entendimento da divisão de facções (Assassinos vs. Cidade), a condição de vitória pela barra de tarefas, a exigência de curto alcance para o Death Note e a mudança no limite de votos quando restam quatro ou menos jogadores. Dominar esses quatro conceitos fundamentais evita erros precoces e derrotas acidentais.
+
+### O Seguidor do Kira pode escrever nomes no Death Note?
+Não. Sob as **regras do BloxNote** oficiais, apenas o jogador atribuído ao papel ativo de Kira tem a capacidade de escrever nomes e acionar eliminações. O Seguidor atua como um parceiro de equipe que pode carregar páginas sobressalentes, repassar itens e servir como distração social durante as votações.
+
+### O que acontece quando uma votação termina em empate?
+Se cinco ou mais jogadores estiverem vivos, uma votação empatada resulta em nenhuma ejeção, encerrando a reunião e retomando a partida. No entanto, assim que o lobby atinge quatro ou menos jogadores vivos, as regras de votação tornam-se muito mais agressivas, permitindo que maiorias simples aprovem ejeções decisivas de fim de jogo.
+
+### Quantos jogadores são necessários para iniciar uma partida no BloxNote?
+Partidas públicas padrão exigem de 8 a 10 jogadores para começar, sendo 10 o tamanho máximo do lobby. Lobbies personalizados privados podem funcionar com apenas 6 jogadores, embora os requisitos de tarefas e metas de eliminação se ajustem dinamicamente para comportar grupos menores.

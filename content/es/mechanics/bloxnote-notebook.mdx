@@ -1,0 +1,151 @@
+export const metadata = {
+  title: "Guía del Cuaderno BloxNote: Mecánicas Principales, Reglas y Desglose Estratégico",
+  description: "Domina las mecánicas del cuaderno BloxNote en Roblox. Conoce las reglas de eliminación, tiempos de causa de muerte, enfriamientos y las mejores estrategias de supervivencia.",
+  category: "mechanics",
+  date: "2026-09-15",
+}
+
+Dominar los poderes sobrenaturales en los juegos de deducción social requiere comprender cada pequeña regla mecánica antes de entrar al servidor. El **cuaderno BloxNote** sirve como la herramienta de eliminación definitiva, inspirada directamente en thrillers psicológicos legendarios y adaptada para salas multijugador de ritmo rápido. Aprender a manejar correctamente el **cuaderno BloxNote** diferencia a los novatos descuidados de las mentes maestras dominantes capaces de controlar rondas enteras desde las sombras.
+
+Ya sea que tengas la tarea de identificar objetivos o de sobrevivir contra un escritor invisible, comprender las mecánicas internas de este objeto es esencial para el éxito competitivo. A continuación, se presenta el desglose completo de cómo funciona el objeto, sus reglas exactas, restricciones operativas y estrategias avanzadas para dominar tus salas.
+
+---
+
+## Mecánicas Principales y Reglas del Cuaderno BloxNote
+
+El ciclo central de juego de BloxNote gira en torno a las fases de adquisición y ejecución del objeto. Cuando un jugador obtiene el objeto, recibe una interfaz de usuario interactiva que se asemeja a un diario encuadernado en cuero donde se pueden inscribir nombres, condiciones y tiempos.
+
+A diferencia de las armas simples de hacer clic para atacar que se encuentran en títulos de acción estándar en la [plataforma oficial de Roblox](https://www.roblox.com), este objeto requiere una entrada de datos precisa. Escribir incorrectamente el nombre de usuario de un objetivo o no cumplir con las condiciones requeridas invalidará la entrada, desperdiciando tiempo valioso y exponiendo tu rol.
+
+### Las Reglas Básicas de Inscripción
+
+Para activar una eliminación con éxito, el usuario debe satisfacer varias condiciones mecánicas dentro del motor del juego:
+
+| Parámetro del Requisito | Condición del Motor | Resultado de Falla |
+| :--- | :--- | :--- |
+| **Nombre del Objetivo** | Nombre Visible exacto o Handle Único | Acción nula; el temporizador se reinicia |
+| **Línea de Visión Directa** | Mirada directa o confirmación visual reciente | La inscripción no se registra |
+| **Búfer de Memoria Facial** | Debe haber renderizado el avatar del objetivo en los últimos 45s | Advertencia de tinta roja; no se activa |
+| **Causa de Muerte** | Especificada dentro de una subventana de 6.5 segundos | Por defecto es paro cardíaco estándar |
+| **Contexto Ambiental** | Física plausible dentro del mapa | El objetivo pasa por defecto a falla estándar |
+
+Si un jugador intenta eliminar a un objetivo cuyo rostro no ha sido registrado por la cámara del campo de visión de su avatar, el cuaderno rechazará la entrada. Esta mecánica de búfer visual evita barridos en las salas de aparición y obliga al escritor a desplazarse activamente.
+
+---
+
+## Especificaciones Técnicas: Tiempos, Enfriamientos y Penalizaciones
+
+El uso del objeto se rige por ventanas de tiempo estrictas. Se premia la precisión, mientras que los errores precipitados activan penalizaciones severas que dejan al escritor vulnerable a la contra-investigación de detectives y transeúntes inocentes.
+
+### Temporizadores Operativos y Ventanas de Acción
+
+```
+[Objetivo Inscrito] ──> (Ventana de Causa 6.5s) ──> [Retraso de Ejecución 40s] ──> [Eliminación]
+                               │
+                               └── (Sin entrada) ──> [Paro Cardíaco por Defecto]
+```
+
+La siguiente tabla describe los tiempos técnicos clave que dictan el ritmo de la ronda:
+
+| Fase / Acción | Duración de Tiempo | Descripción |
+| :--- | :--- | :--- |
+| **Ventana de Inscripción** | 8.0 Segundos | Tiempo permitido para escribir el nombre del objetivo sin cancelar |
+| **Ventana de Especificación** | 6.5 Segundos | Período de gracia para ingresar una causa de muerte personalizada |
+| **Retraso de Muerte por Defecto**| 40.0 Segundos | Temporizador base antes de que el objetivo sufra un paro cardíaco |
+| **Enfriamiento Estándar** | 60.0 Segundos | Retraso antes de que se pueda inscribir un nuevo nombre |
+| **Penalización por Error Tipográfico** | 15.0 Segundos | Bloqueo de entrada aplicado si se envía un nombre no válido |
+| **Límite de Agotamiento de Páginas** | 5-8 Entradas | Capacidad total por ronda según la configuración del servidor |
+
+Los reportes de la comunidad y la experiencia de los jugadores destacan que gestionar el retraso de ejecución de 40 segundos es la habilidad más crítica. Debido a que las eliminaciones no son instantáneas, los objetivos aún pueden comunicarse, emitir votos o activar tareas de emergencia antes de sucumbir a los efectos del objeto.
+
+---
+
+## Opciones de Causa de Muerte e Interacciones con el Mapa
+
+Al utilizar el **cuaderno BloxNote**, los jugadores pueden especificar condiciones de eliminación únicas para manipular la escena del crimen. Seleccionar causas de muerte personalizadas puede despistar a los investigadores, forzar el pánico grupal o aislar a objetivos de alta prioridad.
+
+### Tipos de Muerte y Demandas Ambientales
+
+| Causa de Muerte | Condiciones Requeridas | Evidencia Dejada en la Escena del Crimen | Dificultad de Investigación |
+| :--- | :--- | :--- | :--- |
+| **Paro Cardíaco** | Ninguna (Condición por defecto) | Colapso limpio del avatar, sin sangre | Alta (No deja pistas ambientales) |
+| **Tráfico / Vehículo** | El mapa debe contener carreteras/peligros activos | Avatar desplazado hacia vías de tránsito | Baja (Manipulación evidente) |
+| **Caída / Impacto** | El objetivo debe estar a menos de 30 studs de cornisas | El avatar cae desde la elevación más cercana | Media (Puede parecer un movimiento accidental) |
+| **Frenesí / Hostilidad** | El objetivo debe estar cerca de otro jugador | El objetivo se abalanza sobre el avatar más cercano antes de caer | Extrema (Inculpa al transeúnte como el culpable) |
+| **Trampa Estructural** | El objetivo debe estar en interiores | Se activa un peligro de proximidad (puertas/luces) | Media (Señala un ataque orquestado) |
+
+Elegir la causa de muerte correcta permite al escritor fabricar coartadas convincentes. Por ejemplo, activar una condición de Caída mientras el escritor se encuentra visiblemente en la planta baja genera dudas entre los investigadores que analizan los ángulos de la línea de visión.
+
+---
+
+## Enfrentamientos de Roles y Matriz Estratégica de Amenazas
+
+La supervivencia en BloxNote depende de saber cómo se comparan tus capacidades contra los roles opuestos. Cada rol de investigador posee herramientas de detección únicas diseñadas para identificar y neutralizar al portador del cuaderno.
+
+### Tabla de Comparación de Enfrentamientos
+
+| Rol Oponente | Nivel de Amenaza | Habilidad Principal de Contraataque | Estrategia del Escritor |
+| :--- | :--- | :--- | :--- |
+| **Detective Principal** | Extremo | Inspección con lupa / Revisión de residuos de tinta | Mantener 15+ studs de distancia; usar ventanas de coartada |
+| **Técnico de Vigilancia**| Alto | Análisis de registros de cámara y rastreo visual | Evitar esquinas estáticas durante la fase de escritura de 8s |
+| **Analista Forense** | Medio | Examen corporal para el tiempo de causa de muerte | Alternar condiciones de muerte para ocultar patrones |
+| **Transeúnte / Ciudadano**| Bajo | Reporte directo de testigos presenciales | Eliminar a rezagados aislados fuera de grupos |
+| **Guardia de Seguridad** | Alto | Aturdimiento físico directo y registro de inventario | Mantener el objeto desequipado hasta abrir la ventana de escritura |
+
+### Prioridades Tácticas Clave
+
+- **Nunca sostengas el objeto continuamente:** Equipar el diario activa sutiles indicios de animación (como una postura de manos bajas) que los detectives experimentados buscan.
+- **Alterna objetivos estratégicamente:** Eliminar de inmediato a los investigadores más vocales levanta sospechas sobre los jugadores callados. Pasa desapercibido participando en la discusión pública.
+- **Aprovecha el búfer de 40 segundos:** Inscribe un nombre, camina de inmediato hacia un área pública concurrida y conversa con otros jugadores. Cuando se active la eliminación, tu presencia física en la multitud te otorgará una coartada sólida.
+
+---
+
+## Manual Avanzado: Escenarios de Ejecución Paso a Paso
+
+Ejecutar rondas impecables con el **cuaderno BloxNote** exige una disciplina estricta. A continuación, se presentan pasos tácticos estructurados para dos de las estrategias más efectivas utilizadas en partidas competitivas.
+
+### Escenario A: El Método de la "Coartada en la Plaza Pública"
+
+| Paso | Acción Requerida | Resultado Esperado |
+| :--- | :--- | :--- |
+| **1. Marcado del Objetivo** | Pasa caminando junto al objetivo previsto para refrescar el búfer de memoria visual de 45 segundos. | El rostro del avatar del objetivo queda almacenado en la memoria. |
+| **2. Retirada Segura** | Muévete a un punto ciego o habitación privada sin cobertura de cámaras. | Rompe la línea de visión directa de los espectadores. |
+| **3. Inscripción** | Equipa el libro, ingresa el nombre del objetivo, deja la causa de muerte por defecto. | La inscripción se fija; comienza el temporizador de 40 segundos. |
+| **4. Establecimiento de Coartada**| Desequípalo al instante y únete a un grupo de al menos 2 jugadores en menos de 15 segundos. | Múltiples testigos observan a tu avatar hablando. |
+| **5. El Colapso** | El objetivo cae al expirar el temporizador mientras escribes activamente en el chat. | Exoneración completa durante la fase de discusión. |
+
+### Escenario B: La "Maniobra de Inculpación"
+
+| Paso | Acción Requerida | Resultado Esperado |
+| :--- | :--- | :--- |
+| **1. Observación** | Identifica a dos jugadores que estén muy cerca el uno del otro en un área aislada. | Pareja seleccionada para la trampa. |
+| **2. Inscripción de Causa** | Inscribe el nombre del Objetivo A con el modificador "Frenesí / Hostilidad" apuntando al Objetivo B. | El Objetivo A es forzado a dirigirse hacia el Objetivo B. |
+| **3. Detonante de Pánico** | El Objetivo A colapsa a los pies del Objetivo B con señales de contacto físico. | El Objetivo B es sorprendido en la escena. |
+| **4. Liderar la Acusación** | Sé el primero en reportar el cuerpo y señalar el posicionamiento del Objetivo B. | El grupo vota para expulsar a un transeúnte inocente. |
+
+---
+
+## Contrajuego: Cómo Defenderse del Cuaderno
+
+Sobrevivir contra un escritor competente requiere un contrajuego proactivo y una aguda conciencia situacional. Si sospechas de un escritor activo en la sala, sigue los siguientes principios de supervivencia:
+
+1. **Evita Desplazamientos Solitarios Predecibles:** Los jugadores aislados son los objetivos más fáciles porque sus muertes no proporcionan pistas inmediatas.
+2. **Rastrea Micromovimientos del Avatar:** Escribir requiere abrir una interfaz, lo que frecuentemente hace que el avatar del escritor se detenga de golpe durante 3 a 8 segundos. Toma nota de cualquiera que se quede inmóvil repetidamente en pasillos tranquilos.
+3. **Audita Cambios de Nombre y Handles:** En salas que cuentan con mecánicas de ocultamiento de nombres, presta mucha atención a los nombres mostrados frente a los handles reales de la cuenta para detectar a escritores que cometan errores tipográficos y sufran penalizaciones de enfriamiento.
+4. **Coordina Redadas de Detectives:** Nunca envíes a los investigadores solos. Las unidades de detectives en pareja aseguran que, si uno cae por una eliminación repentina, el otro pueda revisar de inmediato las líneas de visión cercanas.
+
+---
+
+## Preguntas Frecuentes (FAQ)
+
+### ¿Puede el cuaderno BloxNote eliminar a varios jugadores a la vez?
+No. El balance estándar del juego restringe el objeto a un nombre por ciclo de inscripción. Después de enviar una entrada, el escritor debe esperar durante el enfriamiento estándar (típicamente 60 segundos) antes de abrir la interfaz para inscribir a otro objetivo.
+
+### ¿Qué sucede si escribes mal el nombre de un jugador en el cuaderno BloxNote?
+Ingresar un nombre de usuario incorrecto activa una Penalización por Error Tipográfico automática. El libro se bloquea durante 15 segundos, período en el cual no se puede escribir ningún nombre, y tu avatar emite una sutil señal audiovisual que los investigadores cercanos pueden detectar.
+
+### ¿Pueden los detectives robar o destruir el cuaderno BloxNote?
+Los detectives no pueden destruir el objeto directamente del inventario, pero realizar un arresto o registro exitoso sobre el portador confiscará el diario, asegurando de inmediato la victoria para el equipo de investigación.
+
+### ¿Cambiar la apariencia del avatar a mitad de ronda protege contra el cuaderno?
+Según la experiencia de los jugadores en servidores competitivos, los cambios estéticos o de accesorios no borran el búfer de memoria facial una vez que el oponente ha establecido línea de visión durante la ventana de memoria activa.

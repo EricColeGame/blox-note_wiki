@@ -1,0 +1,151 @@
+export const metadata = {
+  title: "BloxNote Notebook Guide: Core Mechanics, Rules, and Strategy Breakdown",
+  description: "Master the BloxNote notebook mechanics in Roblox. Learn elimination rules, cause-of-death timing, cooldowns, and top survival strategies.",
+  category: "mechanics",
+  date: "2026-09-15",
+}
+
+Mastering the supernatural powers in social deduction games requires understanding every tiny mechanical rule before stepping onto the server. The **BloxNote notebook** serves as the ultimate tool of elimination, directly inspired by legendary psychological thrillers and adapted for fast-paced multiplayer lobbies. Learning how to properly wield the **BloxNote notebook** separates careless novices from dominant masterminds capable of controlling entire rounds from the shadows.
+
+Whether you are tasked with identifying targets or surviving against an unseen writer, understanding the internal mechanics of this item is essential for competitive success. Below is the complete breakdown of how the item functions, its exact rules, operational constraints, and advanced strategies for dominating your lobbies.
+
+---
+
+## Core Mechanics and Rules of the BloxNote Notebook
+
+The central gameplay loop of BloxNote revolves around the acquisition and execution phases of the item. When a player obtains the item, they receive an interactive user interface resembling a leather-bound journal where names, conditions, and timings can be inscribed.
+
+Unlike simple click-to-attack weapons found across standard action titles on the [official Roblox platform](https://www.roblox.com), this item requires precision input. Misspelling a target's username or failing to fulfill prerequisite conditions will invalidate the entry, wasting valuable time and exposing your role.
+
+### The Basic Rules of Inscription
+
+To trigger an elimination successfully, the user must satisfy several mechanical conditions within the engine:
+
+| Requirement Parameter | Engine Condition | Failure Result |
+| :--- | :--- | :--- |
+| **Target Name** | Exact Display Name or Unique Handle | Null action; timer resets |
+| **Visual Line-of-Sight** | Direct gaze or recent visual confirmation | Inscription fails to register |
+| **Face Memory Buffer** | Must have rendered target's avatar within 45s | Red ink warning; no trigger |
+| **Cause of Death** | Specified within 6.5-second sub-window | Defaults to standard heart failure |
+| **Environmental Context** | Plausible physical physics within the map | Target defaults to standard failure |
+
+If a player attempts to eliminate a target whose face has not been registered by their avatar's field-of-view camera, the notebook will reject the entry. This visual buffer mechanic prevents spawn-room sweeps and forces the writer to roam actively.
+
+---
+
+## Technical Specifications: Timing, Cooldowns, and Penalties
+
+Operating the item is governed by rigid timing windows. Precision is rewarded, while rushed mistakes trigger punishing debuffs that leave the writer vulnerable to counter-investigation by detectives and innocent bystanders.
+
+### Operational Timers and Action Windows
+
+```
+[Target Inscribed] ──> (6.5s Cause Window) ──> [40s Execution Delay] ──> [Elimination]
+                              │
+                              └── (No entry) ──> [Heart Failure Default]
+```
+
+The table below outlines the core technical timings that dictate round pacing:
+
+| Phase / Action | Time Duration | Description |
+| :--- | :--- | :--- |
+| **Inscription Window** | 8.0 Seconds | Time allowed to type the target's name without canceling |
+| **Specification Window** | 6.5 Seconds | Grace period to input a customized cause of death |
+| **Default Death Delay** | 40.0 Seconds | Base timer before the target suffers heart failure |
+| **Standard Cooldown** | 60.0 Seconds | Delay before a new name can be inscribed |
+| **Misspell Penalty** | 15.0 Seconds | Input lockout applied if an invalid name is submitted |
+| **Page Depletion Limit** | 5-8 Entries | Total capacity per round depending on server settings |
+
+Community reports and player experience highlight that managing the 40-second execution delay is the most critical skill. Because eliminations are not instantaneous, targets can still communicate, cast votes, or trigger emergency tasks before succumbing to the item's effects.
+
+---
+
+## Cause of Death Options and Map Interactions
+
+When utilizing the **BloxNote notebook**, players can specify unique elimination conditions to manipulate the crime scene. Selecting custom causes of death can misdirect investigators, force group panic, or isolate high-priority targets.
+
+### Death Types and Environmental Demands
+
+| Cause of Death | Required Conditions | Crime Scene Evidence Left | Investigation Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Heart Failure** | None (Default condition) | Clean avatar collapse, no blood | High (Leaves zero environmental clues) |
+| **Traffic / Vehicle** | Map must contain active roads/hazards | Avatar displaced toward transit paths | Low (Obvious manipulation) |
+| **Fall / Impact** | Target must be within 30 studs of ledges | Avatar falls from nearest elevation | Medium (Can look like accidental movement) |
+| **Frenzy / Hostility** | Target must be near another player | Target lunges at nearest avatar before fall | Extreme (Frames bystander as the culprit) |
+| **Structural Trap** | Target must be indoors | Proximity hazard activates (doors/lights) | Medium (Signals an orchestrated hit) |
+
+Selecting the right cause of death allows the writer to craft convincing alibis. For example, triggering a Fall condition while the writer is visibly located on ground level creates doubt among investigators analyzing line-of-sight angles.
+
+---
+
+## Role Matchups and Strategic Threat Matrix
+
+Survival in BloxNote depends on knowing how your capabilities match up against opposing roles. Every investigator role possesses unique detection tools designed to identify and neutralize the holder of the notebook.
+
+### Matchup Comparison Table
+
+| Opponent Role | Threat Level | Primary Counter-Ability | Writer Strategy |
+| :--- | :--- | :--- | :--- |
+| **Lead Detective** | Extreme | Magnifying inspection / Ink residue check | Maintain 15+ stud distance; use alibi windows |
+| **Surveillance Tech** | High | Camera log analysis & visual tracing | Avoid static corners during the 8s write phase |
+| **Forensic Analyst** | Medium | Body examination for cause-of-death timing | Alternate death conditions to obscure patterns |
+| **Bystander / Citizen**| Low | Direct eyewitness reporting | Eliminate isolated stragglers outside group clusters |
+| **Security Guard** | High | Direct physical stun and inventory search | Keep item unequipped until writing window opens |
+
+### Key Tactical Priorities
+
+- **Never hold the item continuously:** Equipping the journal triggers subtle animation tells (such as lowered hand posture) that skilled detectives look for.
+- **Cycle through targets strategically:** Eliminating the most vocal investigators immediately raises suspicion toward quiet players. Blend in by contributing to public discussion.
+- **Exploit the 40-second buffer:** Inscribe a name, immediately walk into a crowded public area, and converse with other players. When the elimination triggers, your physical presence in the crowd provides an ironclad alibi.
+
+---
+
+## Advanced Playbook: Step-by-Step Execution Scenarios
+
+Executing flawless rounds with the **BloxNote notebook** demands strict discipline. Below are structured tactical steps for two of the most effective strategies utilized in competitive matches.
+
+### Scenario A: The "Public Square Alibi" Method
+
+| Step | Action Required | Expected Outcome |
+| :--- | :--- | :--- |
+| **1. Target Tagging** | Walk past the intended target to refresh the 45-second visual memory buffer. | Target's avatar face is stored in memory. |
+| **2. Safe Retreat** | Move to a blind spot or private room with no camera coverage. | Break visual line-of-sight from onlookers. |
+| **3. Inscription** | Equip the book, enter target name, leave cause of death as default. | Inscription locks in; 40-second timer begins. |
+| **4. Alibi Establishment**| Unequip instantly and join a group of at least 2 other players within 15 seconds. | Multiple witnesses observe your avatar talking. |
+| **5. The Collapse** | Target falls as timer expires while you are actively typing in chat. | Complete exoneration during the discussion phase. |
+
+### Scenario B: The "Framing Maneuver"
+
+| Step | Action Required | Expected Outcome |
+| :--- | :--- | :--- |
+| **1. Observation** | Identify two players standing in close proximity in an isolated area. | Pair selected for setup. |
+| **2. Cause Inscription** | Inscribe Target A's name with the "Frenzy / Hostility" modifier targeting Target B. | Target A forced toward Target B. |
+| **3. Panic Trigger** | Target A collapses at the feet of Target B with physical contact cues. | Target B is caught at the scene. |
+| **4. Accusation Lead** | Be the first to report the body and point out Target B's positioning. | Group votes out an innocent bystander. |
+
+---
+
+## Counterplay: How to Defend Against the Notebook
+
+Surviving against a capable writer requires proactive counter-play and acute situational awareness. If you suspect an active writer in the lobby, adhere to the following survival principles:
+
+1. **Avoid Predictable Solitary Roaming:** Isolated players are the easiest targets because their deaths provide zero immediate clues.
+2. **Track Avatar Micro-Movements:** Writing requires opening a UI prompt, which frequently causes the writer's avatar to stop moving abruptly for 3 to 8 seconds. Note anyone who repeatedly freezes in quiet corridors.
+3. **Audit Name Changes and Handles:** In lobbies featuring name-masking mechanics, pay close attention to display names versus actual account handles to catch writers mistyping and incurring cooldown penalties.
+4. **Coordinate Detective Sweeps:** Never send investigators alone. Paired detective units ensure that if one falls to a sudden elimination, the other can immediately check nearby sightlines.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### Can the BloxNote notebook eliminate multiple players at once?
+No. Standard game balance restricts the item to one name per inscription cycle. After submitting an entry, the writer must wait through the standard cooldown (typically 60 seconds) before opening the interface to inscribe another target.
+
+### What happens if you misspell a player's name in the BloxNote notebook?
+Entering an incorrect username triggers an automatic Misspell Penalty. The book locks for 15 seconds, during which no names can be typed, and your avatar emits a subtle audio-visual cue that nearby investigators can detect.
+
+### Can detectives steal or destroy the BloxNote notebook?
+Detectives cannot directly destroy the item from inventory, but securing a successful arrest or search on the holder will confiscate the journal, immediately securing a victory for the investigative team.
+
+### Does changing avatar appearance mid-round protect against the notebook?
+Based on player experience across competitive servers, cosmetic changes or accessory swaps do not clear the face memory buffer once an opponent has established line-of-sight during the active memory window.

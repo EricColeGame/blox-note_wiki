@@ -1,400 +1,432 @@
 {
   "site": {
-    "name": "Wiki de My Seafood Stand",
-    "shortName": "My Seafood Stand",
-    "tagline": "Guías completas, códigos, recetas y tier lists",
-    "description": "¡Tu guía definitiva de My Seafood Stand en Roblox! Descubre códigos activos, recetas de mariscos, mejores mejoras, estrategias de ganancias y guías de progresión.",
-    "legalNotice": "Wiki no oficial creada por fans. Hecha por jugadores, para jugadores."
+    "name": "BloxNote Wiki",
+    "shortName": "BloxNote",
+    "logoText": "BN",
+    "tagline": "Centro de Guías y Wiki de BloxNote en Roblox",
+    "description": "Guía completa de BloxNote en Roblox: códigos, guías de roles, estrategias y consejos.",
+    "legalNotice": "BloxNote Wiki is an independent fan-created database and guide hub. Not affiliated with Roblox or the game developers."
   },
   "nav": {
-    "races": "Razas",
-    "bosses": "Jefes",
-    "guides": "Guías",
-    "codes": "Códigos",
-    "tierList": "Tier List",
-    "maps": "Mapas",
-    "skills": "Habilidades",
-    "updates": "Actualizaciones",
-    "home": "Inicio",
-    "menu": "Menú",
-    "toggleTheme": "Cambiar tema",
-    "guide": "Guías",
-    "seafood": "Mariscos y recetas",
-    "upgrades": "Mejoras",
-    "gamepasses": "Pases de juego",
-    "community": "Comunidad"
+    "codes": "Codes",
+    "guide": "Guides",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "modes": "Game Modes",
+    "tips": "Tips",
+    "recentUpdates": "Recent Updates",
+    "allArticles": "All Articles",
+    "search": "Search guides, codes, and wiki..."
   },
   "home": {
     "meta": {
-      "title": "Wiki de My Seafood Stand — Códigos, recetas, mejoras y guías",
-      "description": "Guía completa de My Seafood Stand en Roblox con códigos activos funcionales, todos los pescados y recetas, tier list de mejores mejoras y consejos de dinero rápido."
+      "title": "BloxNote Wiki — Guides, Codes, Roles & Strategies",
+      "description": "Complete BloxNote guide on Roblox with active working codes, role mechanics, detective strategies, and winning tips."
     },
     "hero": {
-      "eyebrow": "Wiki comunitaria creada por fans",
-      "title": "My Seafood Stand",
-      "description": "Domina tu restaurante en My Seafood Stand en Roblox. Accede a todos los códigos activos, el catálogo completo de pescados y recetas, mejoras óptimas y estrategias profesionales para ganar dinero.",
-      "stats": [
-        "Todos los códigos",
-        "Todos los pescados y recetas",
-        "Guías de mejoras",
-        "Consejos para ganar dinero rápido"
-      ],
-      "primaryCta": "Guía para principiantes",
-      "secondaryCta": "Tier List de mariscos",
-      "tertiaryCta": "Códigos activos",
-      "videoLabel": "Multimedia oficial"
+      "badge": "Roblox Social Deduction & Detective Wiki",
+      "title": "BloxNote Wiki — Guías, Códigos, Roles y Estrategias",
+      "description": "Domina cada ronda en BloxNote en Roblox. Códigos activos, guías de Kira y L y mecánicas.",
+      "primaryCta": "Start Playing",
+      "secondaryCta": "Browse Guides",
+      "tertiaryCta": "Working Codes"
     },
     "updates": {
-      "title": "Últimas actualizaciones",
-      "browse": "Explorar todas las guías",
-      "viewAll": "Ver todo"
+      "title": "Latest Updates",
+      "browse": "Browse All Guides",
+      "viewAll": "View All"
     },
     "start": {
-      "eyebrow": "Empieza aquí",
-      "title": "Tu viaje en My Seafood Stand",
+      "eyebrow": "Start Here",
+      "title": "Your BloxNote Journey",
       "cards": [
         {
           "number": "1",
-          "title": "Guía para principiantes",
-          "description": "Domina el Mundo Espiritual desde el primer día con nuestra guía completa para principiantes que cubre controles, combate y progresión inicial."
+          "title": "Beginner Guide",
+          "description": "Learn the core gameplay loop, lobby flow, and basic survival rules in BloxNote."
         },
         {
           "number": "2",
-          "title": "Subir de nivel más rápido",
-          "description": "Domina el inicio del juego y maximiza tu progresión con las rutas y estrategias de subida de nivel más eficientes."
+          "title": "Role Mechanics",
+          "description": "Understand your objectives as an Investigator, L, Kira, or Kira Follower."
         },
         {
           "number": "3",
-          "title": "Mejores zonas de farmeo",
-          "description": "Maximiza tus ganancias de Esencia de Alma y EXP con las ubicaciones de farmeo óptimas para cada etapa."
+          "title": "Kira Strategies",
+          "description": "Master stealth eliminations, notebook rules, and avoiding suspicion during meetings."
         },
         {
           "number": "4",
-          "title": "Cómo extraer",
-          "description": "Aprende los mejores métodos y ubicaciones para extraer recursos en My Seafood Stand."
+          "title": "Detective Tips",
+          "description": "Read player behavior, gather evidence, and identify Kira before time runs out."
         }
       ]
     },
     "popular": {
-      "eyebrow": "Páginas populares",
-      "title": "Tendencias actuales",
+      "eyebrow": "Popular Pages",
+      "title": "Trending Now",
       "quickLinks": [
-        "Progresión Hollow",
-        "Subir de nivel más rápido",
-        "Amuletos espirituales",
-        "Todas las guías de jefes"
+        "Hollow Progression",
+        "Fastest Leveling",
+        "Spirit Charms",
+        "All Boss Guides"
       ],
       "cards": [
         {
-          "badge": "Principiante",
-          "title": "Guía para principiantes",
-          "description": "Todo lo que necesitas desde tu primer inicio de sesión hasta dominar los conceptos básicos del combate y la progresión.",
+          "badge": "Beginner",
+          "title": "Beginner Guide",
+          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
           "href": "/beginner-guide"
         },
         {
-          "badge": "Actualizado",
-          "title": "Códigos activos",
-          "description": "Todos los códigos funcionales con recompensas: canjéalos antes de que caduquen.",
+          "badge": "Updated",
+          "title": "Active Codes",
+          "description": "All working codes with rewards redeem before they expire.",
           "href": "/codes"
         },
         {
-          "badge": "Actualizado",
-          "title": "Base de datos de equipo",
-          "description": "94 objetos repartidos en 5 ranuras: base de datos completa de equipo con estadísticas, rareza y fuentes de obtención.",
+          "badge": "Updated",
+          "title": "Equipment Database",
+          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
           "href": "/equipment"
         },
         {
           "badge": "Popular",
-          "title": "¿Qué raza deberías elegir?",
-          "description": "Shinigami, Quincy o Hollow: compara las tres y encuentra tu estilo de juego perfecto.",
+          "title": "Which Race Should You Pick?",
+          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
           "href": "/races/best-race"
         },
         {
-          "badge": "Nuevo",
-          "title": "Enemigos y monstruos",
-          "description": "23 tipos de enemigos en 5 regiones: botines, ubicaciones y consejos de farmeo.",
+          "badge": "New",
+          "title": "Enemies & Monsters",
+          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
           "href": "/enemies"
         },
         {
           "badge": "Popular",
-          "title": "Ubicaciones y botines de jefes",
-          "description": "Todas las ubicaciones de jefes, tablas de botín y tiempos de reaparición en una sola referencia.",
+          "title": "Boss Locations & Drops",
+          "description": "Every boss location, drop table, and respawn timer in one reference.",
           "href": "/boss-locations-drops-respawn-times"
         },
         {
           "badge": "Popular",
-          "title": "Mejores builds",
-          "description": "Distribución óptima de estadísticas, elecciones del árbol de habilidades y combinaciones de amuletos para cada estilo de juego.",
+          "title": "Best Builds",
+          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
           "href": "/builds/best-builds"
         },
         {
-          "badge": "Nuevo",
-          "title": "Tier List de Shikai",
-          "description": "Los 6 tipos de Shikai de Shinigami clasificados por rendimiento en PvP y PvE.",
+          "badge": "New",
+          "title": "Shikai Tier List",
+          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
           "href": "/tier-list/shikai"
         },
         {
-          "badge": "Nuevo",
-          "title": "Guía de eventos del mundo",
-          "description": "Alijos de suministros, incursiones y eventos mundiales del juego final con recompensas raras.",
+          "badge": "New",
+          "title": "World Events Guide",
+          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
           "href": "/world-events"
         }
       ]
     },
     "aboutGame": {
-      "title": "¿Qué es My Seafood Stand?",
+      "title": "What is BloxNote?",
       "paragraphs": [
-        "My Seafood Stand es un RPG de combate estilizado en Roblox inspirado en el universo del anime Bleach. Elige entre tres razas jugables: Shinigami, Quincy o Hollow, cada una con sistemas de progresión únicos, habilidades desbloqueables y rutas de evolución. Domina más de 130 habilidades mientras luchas para alcanzar el nivel máximo de 100.",
-        "Ya sea que estés desbloqueando tu primer Shikai, evolucionando de un Hollow básico a un Arrancar o completando misiones de Teniente Quincy, nuestra wiki cubre cada sistema con guías detalladas, tablas de datos y tutoriales paso a paso."
+        "BloxNote is an intense social deduction and psychological strategy game on Roblox inspired by the Death Note anime universe. Players are split into opposing factions: the Investigators led by the brilliant detective L, and the mysterious killer Kira accompanied by loyal followers.",
+        "Every round is a thrilling battle of wits. Complete tasks, investigate suspicious behavior, or secretly eliminate targets using the power of the notebook. Whether you seek justice or aim to create a new world, strategy and deception are your greatest weapons."
       ],
       "stats": [
         {
-          "label": "Desarrollador",
-          "value": "Midnight Continent"
+          "value": "2",
+          "label": "Main Factions"
         },
         {
-          "label": "Plataforma",
-          "value": "Roblox"
+          "value": "4+",
+          "label": "Key Roles"
         },
         {
-          "label": "Género",
-          "value": "RPG de combate"
+          "value": "100%",
+          "label": "Mind Games"
         },
         {
-          "label": "Visitas",
-          "value": "12.6M+"
-        },
-        {
-          "label": "Favoritos",
-          "value": "243K+"
-        },
-        {
-          "label": "Habilidades totales",
-          "value": "130+"
-        },
-        {
-          "label": "Nivel máximo",
-          "value": "100"
+          "value": "Free",
+          "label": "To Play"
         }
-      ],
-      "cta": "Explorar todas las guías"
+      ]
     },
     "explore": {
-      "title": "Explora la Wiki de My Seafood Stand",
-      "description": "Domina tu restaurante de mariscos en Roblox con guías esenciales de progresión, códigos activos, catálogos completos de pescados y recetas, y estrategias óptimas de mejora.",
+      "badge": "Comprehensive Database",
+      "title": "Explore BloxNote Wiki",
+      "description": "Everything you need to master BloxNote, from basic rules and role strategies to active codes and community updates.",
+      "viewAll": "View All Guides",
       "modules": [
         {
-          "order": 1,
-          "name": "Códigos activos de My Seafood Stand",
-          "description": "Canjea los últimos códigos funcionales para reclamar monedas gratis, gemas, cosméticos exclusivos y potenciadores antes de que caduquen.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "BloxNote Beginner Guide",
+          "description": "Learn basic gameplay, round flow, and survival strategies for your first matches.",
+          "tag": "Guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Código",
-              "detail": "FULLRELEASE — Dinero y recompensas gratis"
+              "label": "1",
+              "title": "Join Lobby",
+              "detail": "Understand match matchmaking and role assignments."
             },
             {
-              "label": "Código",
-              "detail": "75KLIKES — Reroll de habilidad exclusivo"
+              "label": "2",
+              "title": "Know Your Role",
+              "detail": "Check your secret objective as Investigator or Kira."
             },
             {
-              "label": "Consejo",
-              "detail": "Los códigos distinguen entre mayúsculas y minúsculas; ingrésalos en el menú de Ajustes"
+              "label": "3",
+              "title": "Complete Tasks",
+              "detail": "Do map objectives to speed up the round timer."
+            },
+            {
+              "label": "4",
+              "title": "Attend Meetings",
+              "detail": "Vote on suspects and defend yourself."
             }
           ]
         },
         {
-          "order": 2,
-          "name": "Guía para principiantes: Cómo empezar y servir a los clientes",
-          "description": "Guía paso a paso para principiantes que cubre pedidos de clientes, preparación de alimentos, gestión de estaciones y mecánicas de cobro en caja.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "BloxNote Roles Guide",
+          "description": "Detailed breakdown of abilities, goals, and conditions for all playable roles.",
+          "tag": "Roles",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Paso 1",
-              "detail": "Toma el pedido del cliente en el frente del puesto"
+              "label": "L",
+              "title": "Lead Detective",
+              "detail": "Uncover Kira using special investigation tools."
             },
             {
-              "label": "Paso 2",
-              "detail": "Cocina el marisco en la parrilla o en la estación de hervido"
+              "label": "Kira",
+              "title": "Secret Killer",
+              "detail": "Eliminate investigators without getting caught."
             },
             {
-              "label": "Paso 3",
-              "detail": "Sirve la comida caliente con rapidez para obtener el máximo de propinas"
+              "label": "Investigator",
+              "title": "Town Crew",
+              "detail": "Complete tasks and deduce the culprit."
+            },
+            {
+              "label": "Follower",
+              "title": "Kira Ally",
+              "detail": "Assist Kira by creating confusion and alibis."
             }
           ]
         },
         {
-          "order": 3,
-          "name": "Tier List de mariscos y pescados",
-          "description": "Desglose completo de todos los pescados y mariscos capturables clasificados por valor de mercado, demanda de los clientes y márgenes de beneficio.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "BloxNote Kira Strategies",
+          "description": "Advanced tactics for playing as Kira, fake alibis, and notebook usage.",
+          "tag": "Strategy",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Tier S",
-              "detail": "Cangrejo real · Hervido de langosta — Mayor beneficio por cliente"
+              "label": "Stealth",
+              "title": "Covert Eliminations",
+              "detail": "Strike isolated players when no one is watching."
             },
             {
-              "label": "Tier A",
-              "detail": "Salmón · Camarón gigante · Filete de atún — Ganancias rápidas y fiables"
+              "label": "Alibi",
+              "title": "Crafting Stories",
+              "detail": "Stick near trusted players to build an alibi."
             },
             {
-              "label": "Tier B",
-              "detail": "Almejas · Ostras · Calamar — Gran margen a mitad de juego"
-            },
-            {
-              "label": "Tier C",
-              "detail": "Sardinas comunes · Cangrejo pequeño — Mariscos iniciales"
+              "label": "Bluff",
+              "title": "Meeting Defenses",
+              "detail": "Redirect suspicion towards others convincingly."
             }
           ]
         },
         {
-          "order": 4,
-          "name": "Progresión de mejores mejoras",
-          "description": "Orden óptimo para gastar tu dinero: expande estaciones de cocina, contrata personal de servicio, acelera las parrillas y mejora los asientos.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "BloxNote Detective Tips",
+          "description": "How to gather clues, catch Kira in the act, and coordinate team votes.",
+          "tag": "Tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Prioridad 1",
-              "detail": "Velocidad de cocción y quemadores extra — Despeja la acumulación de clientes"
+              "label": "Patrol",
+              "title": "Pair Up",
+              "detail": "Travel in groups of two or more for safety."
             },
             {
-              "label": "Prioridad 2",
-              "detail": "Capacidad de asientos para clientes — Aumenta los comensales simultáneos"
+              "label": "Timeline",
+              "title": "Track Movements",
+              "detail": "Remember who was where when bodies appear."
             },
             {
-              "label": "Prioridad 3",
-              "detail": "Chef automático / Camareros — Ingresos pasivos automáticos"
+              "label": "Tasks",
+              "title": "Focus Progress",
+              "detail": "Completing tasks forces Kira to act hastily."
             }
           ]
         },
         {
-          "order": 5,
-          "name": "Cómo conseguir dinero rápido",
-          "description": "Mejores estrategias para ganar dinero, evaluación de clientes VIP, maximización de propinas y consejos de servicio de alta eficiencia.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "BloxNote Active Codes",
+          "description": "Redeem active promo codes for free in-game currency, cosmetics, and rewards.",
+          "tag": "Codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Encadena pedidos rápidamente para acumular el multiplicador de Felicidad del Cliente"
+              "label": "RELEASE",
+              "title": "Launch Reward",
+              "detail": "Free starter cash and exclusive badge."
             },
             {
-              "label": "Alto margen",
-              "detail": "Céntrate en hervidos de mariscos de alto nivel durante las horas punta de clientes"
-            },
-            {
-              "label": "Reinversión",
-              "detail": "Mantén una reserva del 20% de efectivo para reponer ingredientes frescos"
+              "label": "UPDATE1",
+              "title": "Patch Gift",
+              "detail": "Bonus points and cosmetic item."
             }
           ]
         },
         {
-          "order": 6,
-          "name": "Expansión de parcelas y personalización del puesto",
-          "description": "Desbloquea parcelas de terreno más grandes, organiza distribuciones de cocina óptimas y añade mejoras decorativas de alto valor.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "BloxNote Game Modes",
+          "description": "Overview of Detective Mode, Kira Mode, Roleplay, and Online Multiplayer.",
+          "tag": "Modes",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Parcela 1",
-              "detail": "Puesto de playa inicial (3 mesas, 1 parrilla)"
+              "label": "1",
+              "title": "Detective Mode",
+              "detail": "Classic social deduction with L versus Kira."
             },
             {
-              "label": "Parcela 2",
-              "detail": "Restaurante del paseo marítimo (6 mesas, 2 parrillas, estación de hervido)"
+              "label": "2",
+              "title": "Kira Mode",
+              "detail": "High-stakes survival as investigators hunt you."
             },
             {
-              "label": "Parcela 3",
-              "detail": "Pabellón de mariscos de lujo en el muelle (automatización total y asientos VIP)"
+              "label": "3",
+              "title": "Roleplay",
+              "detail": "Casual mode for storytelling and role-playing."
+            },
+            {
+              "label": "4",
+              "title": "Multiplayer",
+              "detail": "Ranked and custom lobby matches with friends."
+            }
+          ]
+        },
+        {
+          "name": "BloxNote Maps and Tasks",
+          "description": "Map layouts, escape routes, task locations, and key navigation points.",
+          "tag": "Maps",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "HQ",
+              "title": "Police HQ",
+              "detail": "Central hub with meeting room and security cams."
+            },
+            {
+              "label": "Streets",
+              "title": "City Streets",
+              "detail": "Open pathways and dark alley shortcuts."
+            },
+            {
+              "label": "Offices",
+              "title": "Secret Offices",
+              "detail": "Task-heavy areas with high ambush risk."
+            }
+          ]
+        },
+        {
+          "name": "BloxNote Updates & Patches",
+          "description": "Changelogs, balance tweaks, and feature announcements from the developer.",
+          "tag": "Updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Latest",
+              "title": "Current Version",
+              "detail": "Balance tweaks to role abilities and timers."
+            },
+            {
+              "label": "Upcoming",
+              "title": "Next Patch",
+              "detail": "New map and cosmetic customization teaser."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Preguntas frecuentes",
-      "description": "Respuestas rápidas a las preguntas más frecuentes sobre My Seafood Stand.",
+      "title": "Frequently Asked Questions About BloxNote",
+      "description": "Quick answers to the most common questions about BloxNote on Roblox.",
       "items": [
         {
-          "question": "¿Qué es My Seafood Stand?",
-          "answer": "My Seafood Stand es un RPG de combate gratuito en Roblox basado en el anime Bleach. Puedes elegir una de las mecánicas de juego: Shinigami (Soul Reaper), Quincy o Hollow, cada una con sistemas únicos de progresión, habilidades de combate y evolución. El juego cuenta con más de 130 habilidades, un nivel máximo de 100, combates contra jefes y una profunda personalización de builds."
+          "question": "What is BloxNote on Roblox?",
+          "answer": "BloxNote is a social deduction and detective strategy Roblox game inspired by the Death Note universe. Players take on secret roles as Investigators or Kira, competing to solve mysteries or eliminate targets."
         },
         {
-          "question": "¿Qué raza deberían elegir los principiantes?",
-          "answer": "Shinigami es la raza inicial más accesible, mientras que Hollow y Quincy ofrecen rutas de progresión más especializadas. Compara sus habilidades antes de decidirte."
+          "question": "How do you play as Kira in BloxNote?",
+          "answer": "As Kira, your objective is to secretly eliminate investigators without revealing your identity. Blend in by pretending to complete tasks and build false alibis during group discussions."
         },
         {
-          "question": "¿Cuál es el nivel máximo actual?",
-          "answer": "El nivel máximo actual es 100, con más de 130 habilidades disponibles entre los árboles de habilidades y los sistemas de progresión de cada raza."
+          "question": "How do Investigators and L win in BloxNote?",
+          "answer": "Investigators win by completing all tasks across the map or by identifying and voting out Kira during emergency meetings."
         },
         {
-          "question": "¿Dónde encuentro códigos activos?",
-          "answer": "Consulta la página de Códigos para encontrar códigos funcionales, recompensas, fechas de caducidad e instrucciones de canje."
-        },
-        {
-          "question": "¿Están actualizadas las guías de jefes?",
-          "answer": "Las páginas de jefes están estructuradas con notas de aparición, patrones de ataque, estrategias, tablas de botín y los siguientes pasos para tu progresión."
+          "question": "Are there active promo codes for BloxNote?",
+          "answer": "Yes, check our BloxNote Codes guide regularly for the newest working codes to claim free currency and cosmetic rewards."
         }
       ]
     },
     "finalCta": {
-      "title": "¿Listo para dominar My Seafood Stand?",
-      "description": "Desde tus primeros pasos en Fort Adams hasta los combates contra jefes del juego final, nuestra wiki comunitaria te ofrece guías gratuitas y actualizadas.",
-      "primary": "Leer la guía para principiantes",
-      "secondary": "Jugar en Roblox"
+      "title": "Ready to Master BloxNote?",
+      "description": "Join the community, study role strategies, and dominate your next round in BloxNote.",
+      "primary": "Jugar BloxNote en Roblox",
+      "secondary": "Read Beginner Guide"
     }
   },
-  "bosses": {
-    "meta": {
-      "title": "Jefes — Guía completa y recorrido | Wiki de My Seafood Stand",
-      "description": "Guías completas de jefes para My Seafood Stand: todos los jefes desde Gelum en el tutorial hasta encuentros del juego final con estrategias, botines y tiempos de reaparición."
-    },
-    "overviewTitle": "Resumen de jefes",
-    "overviewDescription": "Guías completas para cada encuentro de jefe en My Seafood Stand: 13 jefes desde el caballero Gelum del tutorial hasta encuentros del juego final como The Gelid Dweller y los desafíos de Gauntlet.",
-    "body": "Los jefes en My Seafood Stand funcionan como pruebas de habilidad e hitos de progresión. Algunos, como Gelum, te enseñan los fundamentos del combate durante el tutorial. Otros, como Shikai Spirit y Resurreccion Spirit, son encuentros del mundo interior directamente vinculados al desbloqueo de poder de tu raza. Los jefes de zona como Dragonfly, King Croc y Securis custodian el acceso a nuevas áreas y recompensas. Las incorporaciones recientes incluyen al Rogue Commander con sus esbirros, The Everfrosted de temática helada y cuatro nuevos jefes del juego final: The Gelid Dweller, Cinder of the Broken Sky, Devourer of Hosts y el Wandering Swordsman (Junichiro). Cada jefe tiene patrones de ataque distintivos y movimientos telegrafiados que debes aprender. Usa las siguientes guías para prepararte para cada combate.",
-    "guidesTitle": "Guías de jefes",
-    "readMore": "Leer más",
-    "new": "Nuevo",
-    "popular": "Popular"
-  },
   "shared": {
-    "wikiNavigation": "Navegación de la wiki",
-    "activeCodes": "Códigos activos",
-    "updated": "Actualizado",
-    "viewAllCodes": "Ver todos los códigos",
-    "playOnRoblox": "Jugar en Roblox",
-    "inThisSection": "En esta sección",
-    "tableOfContents": "Tabla de contenidos",
-    "nextSteps": "Próximos pasos",
-    "needHelp": "¿Necesitas ayuda?",
-    "relatedReading": "Lecturas relacionadas",
-    "relatedGuides": "Guías relacionadas",
-    "readMore": "Leer más",
-    "officialMedia": "Multimedia oficial",
-    "home": "Inicio",
-    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+    "wikiNavigation": "Wiki Navigation",
+    "activeCodes": "Active Codes",
+    "updated": "Updated",
+    "viewAllCodes": "View all codes",
+    "playOnRoblox": "Play on Roblox",
+    "inThisSection": "In this section",
+    "tableOfContents": "Table of Contents",
+    "nextSteps": "Next Steps",
+    "needHelp": "Need Help?",
+    "relatedReading": "Related Reading",
+    "relatedGuides": "Related Guides",
+    "readMore": "Read more",
+    "officialMedia": "Official media",
+    "home": "Home",
+    "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "Wiki de My Seafood Stand",
-    "about": "My Seafood Stand Wiki es un portal de guías independiente creado por fans que cubre rutas de progresión, razas, jefes, builds y conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
-    "quickLinks": "Enlaces rápidos",
-    "guides": "Guías",
+    "aboutTitle": "BloxNote Wiki",
+    "about": "BloxNote Wiki is an independent community guide hub covering game mechanics, role strategies, codes, and updates for BloxNote on Roblox.",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. No afiliado con Midnight Continent ni Roblox.",
-    "description": "RPG de combate gratuito inspirado en Bleach en Roblox. 3 razas, más de 130 habilidades, nivel máx. 100.",
-    "playGame": "Jugar a My Seafood Stand",
-    "officialDiscord": "Discord oficial",
-    "officialYoutube": "YouTube oficial",
-    "vvBuilder": "VV Builder (Planificador de habilidades)",
-    "beginnerGuide": "Guía para principiantes",
-    "raceGuides": "Guías de razas",
-    "bossGuides": "Guías de jefes",
-    "buildGuide": "Guía de builds",
-    "privacyPolicy": "Política de privacidad",
-    "termsOfService": "Términos de servicio"
+    "copyright": "2026 BloxNote Wiki. Not affiliated with Roblox or the game developers.",
+    "playGame": "Jugar BloxNote"
+  },
+  "codes": {
+    "overviewTitle": "BloxNote Codes",
+    "overviewDescription": "Latest active and working codes for BloxNote to redeem rewards."
+  },
+  "guide": {
+    "overviewTitle": "BloxNote Guides",
+    "overviewDescription": "Comprehensive beginner and advanced guides for BloxNote gameplay."
+  },
+  "mechanics": {
+    "overviewTitle": "BloxNote Mechanics",
+    "overviewDescription": "In-depth breakdown of game rules, notebooks, Death Note mechanics and systems."
+  },
+  "characters": {
+    "overviewTitle": "BloxNote Characters",
+    "overviewDescription": "Character guides covering Light Yagami, L, Ryuk, Shinigami and villains."
+  },
+  "modes": {
+    "overviewTitle": "BloxNote Game Modes",
+    "overviewDescription": "Detailed overview of Detective mode, Kira mode, roleplay and online multiplayer."
+  },
+  "tips": {
+    "overviewTitle": "BloxNote Tips & Strategies",
+    "overviewDescription": "Top tips, secrets, strategies and tutorials to dominate in BloxNote."
   }
 }
